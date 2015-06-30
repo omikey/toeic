@@ -1,0 +1,94 @@
+<div id="TestMain">
+  <table style="margin-top:2em;">
+    <tr>
+      <td style="width:12em;">
+      </td>
+      <td style="width:3em;"></td>
+      <td rowspan="15" style="vertical-align: top; border-left: 2px gray solid; width: 8em;">
+        <table style="font-size:1.6em; width: 38em;">
+          <tr>
+            <td id="descrip" style="font-family: WenQuanYi Micro Hei; font-size: 1em; padding-left: 1em; padding-bottom: 2em; line-height: 1.2em;">
+
+            </td>
+          </tr>
+<!--
+          <tr>
+            <td colspan="2">
+              <table style="width:50em">
+                <tr>
+                  <td colspan="2">
+                    <div ng-keyup="updateDescrip()"
+                         id="descripEdit"
+                         contenteditable="true"
+                         style="overflow-y: scroll; width:100%; font-family: WenQuanYi Micro Hei, sans-serif; font-size:1.2em; color: black; border:2px gray solid; height:8em; z-index: 50;">
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <button type="button"
+                            ng-click="descripCancel()"
+                            style="width:100%;">
+                      Cancel
+                    </button>
+                  </td>
+                  <td>
+                    <button type="button"
+                            ng-click="saveTest('#descrip')"
+                            style="width:100%;">
+                      Submit
+                    </button>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+-->
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td style="font-size:1.3em; padding-bottom: 1em;">
+        Listening
+      </td>
+    </tr>
+    <tr ng-repeat="link in '1234'">
+      <td>
+        <input type="checkbox" id="{{link}}">
+        <span onclick="$($(this).parent().children().get(0)).click();" style="font-size:1.6em; text-decoration: underline; cursor: pointer;">Part {{link}}</span>
+      </td>
+    </tr>
+    <tr>
+      <td style="font-size:1.3em; padding-bottom: 1em; padding-top: 1em;">
+        Reading
+      </td>
+    </tr>
+    <tr ng-repeat="link in '567'">
+      <td>
+        <input type="checkbox" id="{{link}}">
+        <span onclick="$($(this).parent().children().get(0)).click()" style="font-size:1.6em; text-decoration: underline; cursor: pointer;">Part {{link}}</span>
+      </td>
+    </tr>
+    <tr>
+      <td style="font-size:1.3em; padding-bottom: 1em; padding-top: 1em;">
+        Test Simulation
+      </td>
+    </tr>
+    <tr ng-repeat="link in ['Listening','Reading','All Sections']">
+      <td ng-click="chooseSection()">
+        <input type="radio" value="{{$index}}" class="circles" name="circles">
+        <span onclick="$($(this).parent().children().get(0)).click()" style="font-size:1.6em; text-decoration: underline; cursor: pointer;">{{link}}</span>
+      </td>
+    </tr>
+    <td>
+      <button ng-if="admin" style="position:relative; top: 0; margin-top:1.5em; font-size: 1.7em; text-align: center;" type="button" ng-click="addQuestion()">
+        Add Question
+      </button>
+    </td>
+    <td style="text-align: center;" colspan="2">
+      <button style="position:relative; top: -2em; font-size: 1.7em; text-align: center;" type="button" ng-click="startTest()">
+        Start Test
+      </button>
+    </td>
+  </table>
+</div>

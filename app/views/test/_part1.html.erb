@@ -1,0 +1,118 @@
+<div id="Part1" style="display:none; width:100%; vertical-align: top; height:100%; position:absolute; top:0em; border-spacing: 0;">
+  <table>
+    <tr>
+      <td colspan="3" style="text-align: center;">
+        <span ng-repeat="k in '1234567'" style="font-size: 1.4em;">
+          <span ng-style="{'text-decoration':($index == (pluck-1) ? 'underline' : '')}">Part {{k}}</span>
+          <span ng-if="!$last" style="text-decoration: none"> | </span>
+        </span>
+        <br>
+        <hr>
+      </td>
+    </tr>
+    <tr>
+      <td style="font-size: 1.4em; padding-bottom: 1.5em;">
+        {{pluck < 5 ? 'Listening' : 'Reading'}} - Part {{pluck}} - Question {{index % 100}}
+      </td>
+      <td colspan="2" style="font-size: 1.4em; text-align: right;">
+        <span ng-bind="hours"></span>
+        <span ng-bind="minutes"></span>
+        <span ng-bind="seconds"></span>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3" style="font-size: 1.4em;">
+        <div style="font-size: 1em; box-shadow: 2px 2px 9px 5px #666666; -webkit-box-shadow: 2px 2px 9px 5px #666666; -moz-box-shadow: 2px 2px 9px 5px #666666; -o-box-shadow: 2px 2px 9px 5px #666666">
+          <div style="display: inline-block; margin: 1em; padding-right: 1em; padding-left: 1em;">
+            <div>{{(index-clumps[index])%100}}<span ng-if="(index-clumps[index]) != (theseNumbs-clumps[index])"> - {{(theseNumbs-clumps[index])%100}}</span>.</div>
+            <div><br></div>
+            <div id="fullSize">
+            <div style="font-family: arial, sans-serif;font-size:24px; height: 425px;overflow-y:auto; line-height: 1.2em; width:20em;position:absolute; top:152px;" id="gameBox0" ng-bind-html="trustAsHtml(thisQuestion[0])">
+            </div>
+            <div style="font-family: arial, sans-serif;font-size:24px; height: 425px;overflow-y:auto; line-height: 1.2em; width:20em;position:absolute; top:152px;" id="gameBox1" ng-bind-html="trustAsHtml(thisQuestion[1])">
+            </div>
+            </div>
+            <div id="setHeight" style="visibility:hidden; width:20em; z-index:-25" ng-bind-html="trustAsHtml(setHeight)"></div>
+            <div ng-repeat="pic in questions track by $index" style="position:absolute; top:6em;width:5px;height:5px;z-index:-50; overflow: hidden;">
+              <div ng-bind-html="pic ? trustAsHtml(getImage(pic)) : ''"></div>
+            </div>
+            <div ng-if="pluck > 4" style="vertical-align: bottom; position: absolute; top: 595px; left: 206px; z-index: 100">
+              <button style="font-size:20px" type="button" ng-click="expandView()">↓ Click to EXPAND</button>
+            </div>
+          </div>
+          <div style="border-left: solid gray 2px; display: inline-block; width: 12em; vertical-align: top; margin-top:1em; text-align: center;">
+            <input ng-model="checks[index]" ng-click="checkAfter(true)" type="checkbox" style="height: 2em; width: 2em;">
+            <br>
+            Check this later
+            <br>
+            <table style="height: 333px; width: 267px; font-size: 1em;">
+              <tr ng-repeat="l in answers">
+                <td style="line-height: 1.3em; vertical-align: middle; font-size: 23px;">
+                  <div style="cursor:pointer; display: inline-block; vertical-align: top;" onclick="$(this).next().click();">
+                    {{l == 'T' ? 'True' : l == 'X' ? 'False' : '(' + l + ')'}}
+                  </div>
+                  <input ng-model="radioValue[index]" class="radioCount" value="{{l}}" id="{{$index}}" type="radio" name="radio" style="height: 2em; width: 2em;">
+                </td>
+              </tr>
+            </table>
+            <button style="font-size: 1em; margin-top:3em;" type="button" ng-click="changeIndex(-1)" ng-if="index>1"><
+              Back
+            </button>
+            <button style="font-size: 1em; margin-top:3em;" type="button" ng-click="changeIndex(-1)" ng-if="index==1" disabled="disabled"><
+              Back
+            </button>
+            <button style="font-size: 1em; margin-left:1em; margin-bottom:1em;" type="button" ng-click="changeIndex(1)">Next ></button>
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3" style="padding-top:4em;">
+        <hr>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3" style="padding-top:1.5em; font-size: 1.2em">
+        Answer Sheet
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3" style="padding-top:3em">
+        <table style="border-spacing: 0; font-size: 2.3em; width:30em;box-shadow: 2px 2px 9px 5px #666666; -webkit-box-shadow: 2px 2px 9px 5px #666666; -moz-box-shadow: 2px 2px 9px 5px #666666; -o-box-shadow: 2px 2px 9px 5px #666666" ng-if="pluck < 5">
+          <tr>
+            <td class="border" ng-repeat="j in '1234'" colspan="{{$first ? 1 : 3}}" style="border: solid gray 2px;font-size: .8em">
+              Part&nbsp;{{j}}
+            </td>
+          </tr>
+          <tr ng-repeat="m in '1234567890'">
+            <td class="border" ng-repeat="n in ' 123456789'" ng-style="{'border-left': (($index % 3) == 1 ? 'solid gray 2px' : '0'), cursor:'pointer','width':($first ? '86.5px' : ($last ? '75.3px' : '57.7px'))}" id="r{{($parent.$last ? parse(n+m) + 10 : parse(n+m))}}" ng-click="moveIndex($event)">
+              <div style="display:inline-block">
+                {{($parent.$last ? parse(n+m) + 10 : n+m)}}
+              </div>
+              <div ng-style="{'margin-right':($first ? '1em' : ($last ? '.5em' : '0'))}" style="font-weight:600; text-align: right; display:inline-block; float: right;" ng-bind="radioValue[parse($parent.$last ? parse(n+m) + 10 : n+m) + 100] == 'X' ? 'F' : radioValue[parse($parent.$last ? parse(n+m) + 10 : n+m)] == -1 ? '' : radioValue[parse($parent.$last ? parse(n+m) + 10 : n+m)]">
+                A
+              </div>
+            </td>
+          </tr>
+        </table>
+        <table style="border-spacing: 0; font-size: 2.3em; width:30em;box-shadow: 2px 2px 9px 5px #666666; -webkit-box-shadow: 2px 2px 9px 5px #666666; -moz-box-shadow: 2px 2px 9px 5px #666666; -o-box-shadow: 2px 2px 9px 5px #666666" ng-if="pluck >= 5">
+          <tr>
+            <td class="border" ng-repeat="j in '567'" colspan="{{$first ? 4 : $last ? 4 : 2}}" style="border: solid gray 2px;font-size: .8em">
+              Part&nbsp;{{j}}
+            </td>
+          </tr>
+          <tr ng-repeat="m in '1234567890'">
+            <td class="border" ng-repeat="n in ' 123456789'" ng-style="{'border-top':($parent.$index == 2 && $index == 5) ? 'solid gray 2px' : '0','border-left': ($index == 4 ? 'solid gray 2px' : ($index == 6 && $parent.$index < 2) ? 'solid gray 2px' : ($index == 5 && $parent.$index >= 2) ? 'solid gray 2px' : '0'),'border-right': ($index == 3 ? 'solid gray 2px' : ($index == 5 && $parent.$index < 2) ? 'solid gray 2px' : ($index == 4 && $parent.$index >= 2) ? 'solid gray 2px' : '0'), cursor:'pointer','width':($first ? '57.7px' : ($last ? '75.3px' : '57.7px'))}" id="r{{($parent.$last ? parse(n+m) + 110 : parse(n+m) + 100)}}" ng-click="moveIndex($event)">
+              <div style="display:inline-block">
+                {{($parent.$last ? parse(n+m) + 10 : n+m)}}
+              </div>
+              <div ng-style="{'margin-right':($last ? '.5em' : '0')}" style="font-weight:600; text-align: right; display:inline-block; float: right;" ng-bind="radioValue[parse($parent.$last ? parse(n+m) + 10 : n+m) + 100] == 'X' ? 'F' : radioValue[parse($parent.$last ? parse(n+m) + 10 : n+m) + 100] == -1 ? '' : radioValue[parse($parent.$last ? parse(n+m) + 10 : n+m) + 100]">
+                A
+              </div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>

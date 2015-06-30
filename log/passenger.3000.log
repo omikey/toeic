@@ -1,0 +1,1011 @@
+[ 2015-02-09 20:17:58.0832 4549/b744a700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5nN3lyMWYvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.g7yr1f/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '4548', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-09 20:17:58.0926 4552/b7434700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.4548/generation-0/request
+[ 2015-02-09 20:17:58.0984 4557/b73b7700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.4548/generation-0/logging
+[ 2015-02-09 20:17:58.0997 4549/b744a700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 4589 stdout: 
+App 4589 stdout: 
+[ 2015-02-09 21:43:52.9911 7165/b749c700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5xMDE5enYvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.q019zv/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '7164', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-09 21:43:52.9964 7168/b74af700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.7164/generation-0/request
+[ 2015-02-09 21:43:53.0026 7173/b747f700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.7164/generation-0/logging
+[ 2015-02-09 21:43:53.0045 7165/b749c700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 7205 stdout: 
+App 7205 stdout: 
+[ 2015-02-10 11:03:29.4543 13308/b7498700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS44OThwcjQvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.898pr4/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '13307', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-10 11:03:29.4621 13311/b73d6700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.13307/generation-0/request
+[ 2015-02-10 11:03:29.4668 13316/b7450700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.13307/generation-0/logging
+[ 2015-02-10 11:03:29.4687 13308/b7498700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 13350 stdout: 
+App 13350 stdout: 
+[ 2015-02-10 11:10:55.1842 13721/b73e3700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xdW1oN3VzL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.1umh7us/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '13720', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-10 11:10:55.1902 13724/b74aa700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.13720/generation-0/request
+[ 2015-02-10 11:10:55.1979 13729/b748d700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.13720/generation-0/logging
+[ 2015-02-10 11:10:55.1991 13721/b73e3700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 13761 stdout: 
+App 13761 stdout: 
+[ 2015-02-10 11:19:11.6001 2178/b7413700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS42Mml3bDEvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.62iwl1/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '2177', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-10 11:19:11.6413 2181/b740a700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.2177/generation-0/request
+[ 2015-02-10 11:19:11.6810 2189/b749c700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.2177/generation-0/logging
+[ 2015-02-10 11:19:11.6812 2178/b7413700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 2219 stdout: 
+App 2219 stdout: 
+[ 2015-02-10 14:42:12.3039 1974/b748b700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xYmF4aWg5L3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.1baxih9/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '1973', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-10 14:42:12.3400 1978/b7454700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.1973/generation-0/request
+[ 2015-02-10 14:42:12.3886 1983/b7431700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.1973/generation-0/logging
+[ 2015-02-10 14:42:12.3888 1974/b748b700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 2031 stdout: 
+App 2031 stdout: 
+[ 2015-02-11 02:42:15.4289 3998/b74b5700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xNTJnd2Z1L3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.152gwfu/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '3997', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-11 02:42:15.4340 4001/b7418700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.3997/generation-0/request
+[ 2015-02-11 02:42:15.4396 4006/b7449700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.3997/generation-0/logging
+[ 2015-02-11 02:42:15.4410 3998/b74b5700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 4038 stdout: 
+App 4038 stdout: 
+[ 2015-02-11 02:42:18.9028 4001/b59feb40 Pool2/Implementation.cpp:287 ]: Could not spawn process for application /home/mikey/Desktop/japanfour: An error occured while starting the web application.
+  Error ID: 530c1ccc
+  Error details saved to: /tmp/passenger-error-kPV1ca.html
+  Message from application: undefined method `configure' for #<Japanfour::Application:0xa703c44> (NoMethodError)
+  /home/mikey/Desktop/japanfour/config/environments/development.rb:1:in `<top (required)>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `block in require'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/engine.rb:571:in `block in <class:Engine>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `run'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `each'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application.rb:136:in `initialize!'
+  /home/mikey/Desktop/japanfour/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:108:in `eval'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:108:in `load_app'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:127:in `<module:App>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:27:in `<module:PhusionPassenger>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:26:in `<main>'
+
+
+[ 2015-02-11 02:42:18.9099 4001/b61ffb40 agents/HelperAgent/RequestHandler.h:2306 ]: [Client 20] Cannot checkout session because a spawning error occurred. The identifier of the error is 530c1ccc. Please see earlier logs for details about the error.
+App 4128 stdout: 
+App 4128 stdout: 
+[ 2015-02-11 02:42:24.5070 4001/b59feb40 Pool2/Implementation.cpp:287 ]: Could not spawn process for application /home/mikey/Desktop/japanfour: An error occured while starting the web application.
+  Error ID: 1da2b45f
+  Error details saved to: /tmp/passenger-error-48zkA0.html
+  Message from application: undefined method `configure' for #<Japanfour::Application:0x947d584> (NoMethodError)
+  /home/mikey/Desktop/japanfour/config/environments/development.rb:1:in `<top (required)>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `block in require'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/engine.rb:571:in `block in <class:Engine>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `run'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `each'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application.rb:136:in `initialize!'
+  /home/mikey/Desktop/japanfour/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:108:in `eval'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:108:in `load_app'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:127:in `<module:App>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:27:in `<module:PhusionPassenger>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:26:in `<main>'
+
+
+[ 2015-02-11 02:42:24.5123 4001/b61ffb40 agents/HelperAgent/RequestHandler.h:2306 ]: [Client 20] Cannot checkout session because a spawning error occurred. The identifier of the error is 1da2b45f. Please see earlier logs for details about the error.
+[ 2015-02-11 02:44:54.1928 4234/b7441700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xdTU5MHpuL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.1u590zn/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '4233', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-11 02:44:54.1988 4237/b7405700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.4233/generation-0/request
+[ 2015-02-11 02:44:54.2037 4242/b745b700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.4233/generation-0/logging
+[ 2015-02-11 02:44:54.2094 4234/b7441700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 4274 stdout: 
+App 4274 stdout: 
+[ 2015-02-11 02:44:58.1509 4237/b59feb40 Pool2/Implementation.cpp:287 ]: Could not spawn process for application /home/mikey/Desktop/japanfour: An error occured while starting the web application.
+  Error ID: 44bb41d9
+  Error details saved to: /tmp/passenger-error-Hpp03c.html
+  Message from application: uninitialized constant Blog (NameError)
+  /home/mikey/Desktop/japanfour/config/environments/development.rb:1:in `<top (required)>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/engine.rb:571:in `block in <class:Engine>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `run'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `each'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application.rb:136:in `initialize!'
+  /home/mikey/Desktop/japanfour/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:108:in `eval'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:108:in `load_app'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:127:in `<module:App>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:27:in `<module:PhusionPassenger>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:26:in `<main>'
+
+
+[ 2015-02-11 02:44:58.1555 4237/b61ffb40 agents/HelperAgent/RequestHandler.h:2306 ]: [Client 20] Cannot checkout session because a spawning error occurred. The identifier of the error is 44bb41d9. Please see earlier logs for details about the error.
+App 4375 stdout: 
+App 4375 stdout: 
+[ 2015-02-11 02:45:02.7380 4237/b59feb40 Pool2/Implementation.cpp:287 ]: Could not spawn process for application /home/mikey/Desktop/japanfour: An error occured while starting the web application.
+  Error ID: 2e24f63b
+  Error details saved to: /tmp/passenger-error-MveQrj.html
+  Message from application: uninitialized constant Blog (NameError)
+  /home/mikey/Desktop/japanfour/config/environments/development.rb:1:in `<top (required)>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/engine.rb:571:in `block in <class:Engine>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `run'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `each'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application.rb:136:in `initialize!'
+  /home/mikey/Desktop/japanfour/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:108:in `eval'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:108:in `load_app'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:127:in `<module:App>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:27:in `<module:PhusionPassenger>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:26:in `<main>'
+
+
+[ 2015-02-11 02:45:02.7451 4237/b61ffb40 agents/HelperAgent/RequestHandler.h:2306 ]: [Client 20] Cannot checkout session because a spawning error occurred. The identifier of the error is 2e24f63b. Please see earlier logs for details about the error.
+[ 2015-02-11 02:45:52.6561 4437/b747d700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xMzUzOGZ6L3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.13538fz/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '4436', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-11 02:45:52.6621 4440/b7455700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.4436/generation-0/request
+[ 2015-02-11 02:45:52.6690 4445/b7494700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.4436/generation-0/logging
+[ 2015-02-11 02:45:52.6709 4437/b747d700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 4489 stdout: 
+App 4489 stdout: 
+[ 2015-02-11 02:45:57.5035 4440/b636db40 Pool2/Implementation.cpp:287 ]: Could not spawn process for application /home/mikey/Desktop/japanfour: An error occured while starting the web application.
+  Error ID: a9421356
+  Error details saved to: /tmp/passenger-error-iEiDRo.html
+  Message from application: can't convert String into Hash (TypeError)
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/mapper.rb:254:in `merge'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/mapper.rb:254:in `root'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/mapper.rb:1321:in `root'
+  /home/mikey/Desktop/japanfour/config/routes.rb:2:in `block in <top (required)>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:289:in `instance_exec'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:289:in `eval_block'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:267:in `draw'
+  /home/mikey/Desktop/japanfour/config/routes.rb:1:in `<top (required)>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:245:in `load'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:245:in `block in load'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:245:in `load'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:40:in `each'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:40:in `load_paths'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:16:in `reload!'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:26:in `block in updater'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/file_update_checker.rb:78:in `call'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/file_update_checker.rb:78:in `execute'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:27:in `updater'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:7:in `execute_if_updated'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/finisher.rb:66:in `block in <module:Finisher>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `run'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `each'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application.rb:136:in `initialize!'
+  /home/mikey/Desktop/japanfour/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:108:in `eval'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:108:in `load_app'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:127:in `<module:App>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:27:in `<module:PhusionPassenger>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:26:in `<main>'
+
+
+[ 2015-02-11 02:45:57.5122 4440/b61ffb40 agents/HelperAgent/RequestHandler.h:2306 ]: [Client 20] Cannot checkout session because a spawning error occurred. The identifier of the error is a9421356. Please see earlier logs for details about the error.
+App 4559 stdout: 
+App 4559 stdout: 
+[ 2015-02-11 02:46:00.0039 4440/b636db40 Pool2/Implementation.cpp:287 ]: Could not spawn process for application /home/mikey/Desktop/japanfour: An error occured while starting the web application.
+  Error ID: 77bd0a25
+  Error details saved to: /tmp/passenger-error-AAiOc5.html
+  Message from application: can't convert String into Hash (TypeError)
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/mapper.rb:254:in `merge'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/mapper.rb:254:in `root'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/mapper.rb:1321:in `root'
+  /home/mikey/Desktop/japanfour/config/routes.rb:2:in `block in <top (required)>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:289:in `instance_exec'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:289:in `eval_block'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:267:in `draw'
+  /home/mikey/Desktop/japanfour/config/routes.rb:1:in `<top (required)>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:245:in `load'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:245:in `block in load'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:245:in `load'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:40:in `each'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:40:in `load_paths'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:16:in `reload!'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:26:in `block in updater'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/file_update_checker.rb:78:in `call'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/file_update_checker.rb:78:in `execute'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:27:in `updater'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:7:in `execute_if_updated'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/finisher.rb:66:in `block in <module:Finisher>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `run'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `each'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application.rb:136:in `initialize!'
+  /home/mikey/Desktop/japanfour/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:108:in `eval'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:108:in `load_app'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:127:in `<module:App>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:27:in `<module:PhusionPassenger>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:26:in `<main>'
+
+
+[ 2015-02-11 02:46:01.0065 4440/b61ffb40 agents/HelperAgent/RequestHandler.h:2306 ]: [Client 20] Cannot checkout session because a spawning error occurred. The identifier of the error is 77bd0a25. Please see earlier logs for details about the error.
+[ 2015-02-11 02:48:04.9050 4605/b7436700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xeTNocmZqL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.1y3hrfj/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '4604', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-11 02:48:04.9117 4608/b7474700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.4604/generation-0/request
+[ 2015-02-11 02:48:04.9181 4613/b7442700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.4604/generation-0/logging
+[ 2015-02-11 02:48:04.9192 4605/b7436700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 4645 stdout: 
+App 4645 stdout: 
+[ 2015-02-11 02:48:09.4766 4608/b638cb40 Pool2/Implementation.cpp:287 ]: Could not spawn process for application /home/mikey/Desktop/japanfour: An error occured while starting the web application.
+  Error ID: 114eb821
+  Error details saved to: /tmp/passenger-error-J9inOn.html
+  Message from application: can't convert String into Hash (TypeError)
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/mapper.rb:254:in `merge'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/mapper.rb:254:in `root'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/mapper.rb:1321:in `root'
+  /home/mikey/Desktop/japanfour/config/routes.rb:2:in `block in <top (required)>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:289:in `instance_exec'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:289:in `eval_block'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:267:in `draw'
+  /home/mikey/Desktop/japanfour/config/routes.rb:1:in `<top (required)>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:245:in `load'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:245:in `block in load'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:245:in `load'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:40:in `each'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:40:in `load_paths'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:16:in `reload!'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:26:in `block in updater'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/file_update_checker.rb:78:in `call'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/file_update_checker.rb:78:in `execute'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:27:in `updater'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:7:in `execute_if_updated'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/finisher.rb:66:in `block in <module:Finisher>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `run'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `each'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application.rb:136:in `initialize!'
+  /home/mikey/Desktop/japanfour/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:108:in `eval'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:108:in `load_app'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:127:in `<module:App>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:27:in `<module:PhusionPassenger>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:26:in `<main>'
+
+
+[ 2015-02-11 02:48:09.4839 4608/b61ffb40 agents/HelperAgent/RequestHandler.h:2306 ]: [Client 20] Cannot checkout session because a spawning error occurred. The identifier of the error is 114eb821. Please see earlier logs for details about the error.
+App 4726 stdout: 
+App 4726 stdout: 
+[ 2015-02-11 02:48:13.0475 4608/b638cb40 Pool2/Implementation.cpp:287 ]: Could not spawn process for application /home/mikey/Desktop/japanfour: An error occured while starting the web application.
+  Error ID: e40a0056
+  Error details saved to: /tmp/passenger-error-yusl7L.html
+  Message from application: can't convert String into Hash (TypeError)
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/mapper.rb:254:in `merge'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/mapper.rb:254:in `root'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/mapper.rb:1321:in `root'
+  /home/mikey/Desktop/japanfour/config/routes.rb:2:in `block in <top (required)>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:289:in `instance_exec'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:289:in `eval_block'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:267:in `draw'
+  /home/mikey/Desktop/japanfour/config/routes.rb:1:in `<top (required)>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:245:in `load'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:245:in `block in load'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:245:in `load'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:40:in `each'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:40:in `load_paths'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:16:in `reload!'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:26:in `block in updater'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/file_update_checker.rb:78:in `call'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/file_update_checker.rb:78:in `execute'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:27:in `updater'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:7:in `execute_if_updated'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/finisher.rb:66:in `block in <module:Finisher>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `run'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `each'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application.rb:136:in `initialize!'
+  /home/mikey/Desktop/japanfour/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:108:in `eval'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:108:in `load_app'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:127:in `<module:App>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:27:in `<module:PhusionPassenger>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:26:in `<main>'
+
+
+[ 2015-02-11 02:48:13.0546 4608/b61ffb40 agents/HelperAgent/RequestHandler.h:2306 ]: [Client 20] Cannot checkout session because a spawning error occurred. The identifier of the error is e40a0056. Please see earlier logs for details about the error.
+[ 2015-02-11 02:48:57.1969 4771/b73f7700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS52aG1kazEvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.vhmdk1/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '4770', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-11 02:48:57.2032 4774/b7430700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.4770/generation-0/request
+[ 2015-02-11 02:48:57.2084 4779/b7499700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.4770/generation-0/logging
+[ 2015-02-11 02:48:57.2094 4771/b73f7700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 4811 stdout: 
+App 4811 stdout: 
+[ 2015-02-11 02:49:01.8051 4774/b6348b40 Pool2/Implementation.cpp:287 ]: Could not spawn process for application /home/mikey/Desktop/japanfour: An error occured while starting the web application.
+  Error ID: e4e8117d
+  Error details saved to: /tmp/passenger-error-9sR7Az.html
+  Message from application: can't convert String into Hash (TypeError)
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/mapper.rb:254:in `merge'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/mapper.rb:254:in `root'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/mapper.rb:1321:in `root'
+  /home/mikey/Desktop/japanfour/config/routes.rb:2:in `block in <top (required)>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:289:in `instance_exec'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:289:in `eval_block'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:267:in `draw'
+  /home/mikey/Desktop/japanfour/config/routes.rb:1:in `<top (required)>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:245:in `load'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:245:in `block in load'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:245:in `load'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:40:in `each'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:40:in `load_paths'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:16:in `reload!'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:26:in `block in updater'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/file_update_checker.rb:78:in `call'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/file_update_checker.rb:78:in `execute'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:27:in `updater'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:7:in `execute_if_updated'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/finisher.rb:66:in `block in <module:Finisher>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `run'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `each'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application.rb:136:in `initialize!'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /home/mikey/Desktop/japanfour/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:108:in `eval'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:108:in `load_app'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:127:in `<module:App>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:27:in `<module:PhusionPassenger>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:26:in `<main>'
+
+
+[ 2015-02-11 02:49:01.8134 4774/b61ffb40 agents/HelperAgent/RequestHandler.h:2306 ]: [Client 20] Cannot checkout session because a spawning error occurred. The identifier of the error is e4e8117d. Please see earlier logs for details about the error.
+App 4893 stdout: 
+App 4893 stdout: 
+[ 2015-02-11 02:49:05.6839 4774/b6348b40 Pool2/Implementation.cpp:287 ]: Could not spawn process for application /home/mikey/Desktop/japanfour: An error occured while starting the web application.
+  Error ID: 0f1802c2
+  Error details saved to: /tmp/passenger-error-hPG280.html
+  Message from application: can't convert String into Hash (TypeError)
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/mapper.rb:254:in `merge'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/mapper.rb:254:in `root'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/mapper.rb:1321:in `root'
+  /home/mikey/Desktop/japanfour/config/routes.rb:2:in `block in <top (required)>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:289:in `instance_exec'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:289:in `eval_block'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:267:in `draw'
+  /home/mikey/Desktop/japanfour/config/routes.rb:1:in `<top (required)>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:245:in `load'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:245:in `block in load'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:245:in `load'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:40:in `each'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:40:in `load_paths'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:16:in `reload!'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:26:in `block in updater'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/file_update_checker.rb:78:in `call'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-3.2.13/lib/active_support/file_update_checker.rb:78:in `execute'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:27:in `updater'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/routes_reloader.rb:7:in `execute_if_updated'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application/finisher.rb:66:in `block in <module:Finisher>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `run'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `each'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/application.rb:136:in `initialize!'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-3.2.13/lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /home/mikey/Desktop/japanfour/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:108:in `eval'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:108:in `load_app'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:127:in `<module:App>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:27:in `<module:PhusionPassenger>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:26:in `<main>'
+
+
+[ 2015-02-11 02:49:05.6999 4774/b61ffb40 agents/HelperAgent/RequestHandler.h:2306 ]: [Client 20] Cannot checkout session because a spawning error occurred. The identifier of the error is 0f1802c2. Please see earlier logs for details about the error.
+[ 2015-02-11 02:50:38.6926 4940/b7485700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5wODB0eTQvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.p80ty4/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '4939', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-11 02:50:38.6991 4943/b7438700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.4939/generation-0/request
+[ 2015-02-11 02:50:38.7050 4948/b741a700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.4939/generation-0/logging
+[ 2015-02-11 02:50:38.7062 4940/b7485700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 4982 stdout: 
+App 4982 stdout: 
+[ 2015-02-11 02:52:45.0138 5140/b744b700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xZHlwbjg1L3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.1dypn85/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '5139', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-11 02:52:45.0232 5143/b7430700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.5139/generation-0/request
+[ 2015-02-11 02:52:45.0301 5148/b7421700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.5139/generation-0/logging
+[ 2015-02-11 02:52:45.0315 5140/b744b700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 5182 stdout: 
+App 5182 stdout: 
+[ 2015-02-11 02:54:02.3336 5324/b748c700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xY29xNWNsL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.1coq5cl/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '5323', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-11 02:54:02.3422 5327/b740f700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.5323/generation-0/request
+[ 2015-02-11 02:54:02.3468 5332/b74a6700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.5323/generation-0/logging
+[ 2015-02-11 02:54:02.3492 5324/b748c700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 5366 stdout: 
+App 5366 stdout: 
+[ 2015-02-11 02:54:56.2291 5595/b7470700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xcm8wZmpsL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.1ro0fjl/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '5594', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-11 02:54:56.2352 5598/b740f700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.5594/generation-0/request
+[ 2015-02-11 02:54:56.2412 5603/b7489700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.5594/generation-0/logging
+[ 2015-02-11 02:54:56.2423 5595/b7470700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 5636 stdout: 
+App 5636 stdout: 
+[ 2015-02-11 02:58:09.2405 5832/b74be700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xc2g1M2h0L3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.1sh53ht/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '5831', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-11 02:58:09.2476 5835/b73e2700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.5831/generation-0/request
+[ 2015-02-11 02:58:09.2544 5840/b744e700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.5831/generation-0/logging
+[ 2015-02-11 02:58:09.2555 5832/b74be700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 5872 stdout: 
+App 5872 stdout: 
+[ 2015-02-11 02:59:31.6423 6022/b74b3700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xMTZ3ZmQ5L3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.116wfd9/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '6021', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-11 02:59:31.6475 6025/b73f5700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.6021/generation-0/request
+[ 2015-02-11 02:59:31.6543 6030/b73f4700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.6021/generation-0/logging
+[ 2015-02-11 02:59:31.6556 6022/b74b3700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 6062 stdout: 
+App 6062 stdout: 
+[ 2015-02-11 03:00:29.7846 6181/b7456700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5wb21scTMvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.pomlq3/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '6180', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-11 03:00:29.7885 6184/b73e5700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.6180/generation-0/request
+[ 2015-02-11 03:00:29.7931 6189/b7492700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.6180/generation-0/logging
+[ 2015-02-11 03:00:29.7942 6181/b7456700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 6221 stdout: 
+App 6221 stdout: 
+[ 2015-02-11 03:01:41.3331 6368/b73e9700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5uMGZyb3kvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.n0froy/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '6367', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-11 03:01:41.3372 6371/b742e700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.6367/generation-0/request
+[ 2015-02-11 03:01:41.3417 6376/b7487700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.6367/generation-0/logging
+[ 2015-02-11 03:01:41.3428 6368/b73e9700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 6408 stdout: 
+App 6408 stdout: 
+[ 2015-02-11 03:03:48.5004 6581/b73ea700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5wdDZqOHYvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.pt6j8v/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '6580', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-11 03:03:48.5068 6584/b73e4700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.6580/generation-0/request
+[ 2015-02-11 03:03:48.5125 6589/b73e0700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.6580/generation-0/logging
+[ 2015-02-11 03:03:48.5146 6581/b73ea700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 6623 stdout: 
+App 6623 stdout: 
+[ 2015-02-11 03:05:26.8127 6822/b73f2700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5zNmMwbzMvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.s6c0o3/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '6821', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-11 03:05:26.8175 6825/b7462700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.6821/generation-0/request
+[ 2015-02-11 03:05:26.8222 6830/b73c6700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.6821/generation-0/logging
+[ 2015-02-11 03:05:26.8231 6822/b73f2700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 6862 stdout: 
+App 6862 stdout: 
+[ 2015-02-11 03:06:20.6488 7006/b73ee700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xMmVydzhkL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.12erw8d/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '7005', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-11 03:06:20.6547 7009/b7404700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.7005/generation-0/request
+[ 2015-02-11 03:06:20.6618 7014/b74a6700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.7005/generation-0/logging
+[ 2015-02-11 03:06:20.6631 7006/b73ee700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 7046 stdout: 
+App 7046 stdout: 
+[ 2015-02-11 03:07:31.1040 7184/b7460700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xcnhlMTJoL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.1rxe12h/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '7183', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-11 03:07:31.1113 7187/b73e3700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.7183/generation-0/request
+[ 2015-02-11 03:07:31.1171 7192/b749a700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.7183/generation-0/logging
+[ 2015-02-11 03:07:31.1183 7184/b7460700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 7226 stdout: 
+App 7226 stdout: 
+[ 2015-02-11 03:31:54.9274 7940/b743c700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xaDNxdW1rL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.1h3qumk/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '7939', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-11 03:31:54.9364 7943/b74b7700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.7939/generation-0/request
+[ 2015-02-11 03:31:54.9439 7948/b7470700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.7939/generation-0/logging
+[ 2015-02-11 03:31:54.9440 7940/b743c700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 7980 stdout: 
+App 7980 stderr: config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+App 7980 stderr: 
+App 7980 stderr:   * development - set it to false
+App 7980 stderr:   * test - set it to false (unless you use a tool that preloads your test environment)
+App 7980 stderr:   * production - set it to true
+App 7980 stderr: 
+App 7980 stderr: 
+App 7980 stdout: 
+[ 2015-02-11 03:33:02.9262 8100/b7439700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xdXJuYjRsL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.1urnb4l/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '8099', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-11 03:33:02.9335 8103/b74bc700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.8099/generation-0/request
+[ 2015-02-11 03:33:02.9384 8108/b747b700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.8099/generation-0/logging
+[ 2015-02-11 03:33:02.9395 8100/b7439700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 8140 stdout: 
+App 8140 stderr: config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+App 8140 stderr: 
+App 8140 stderr:   * development - set it to false
+App 8140 stderr:   * test - set it to false (unless you use a tool that preloads your test environment)
+App 8140 stderr:   * production - set it to true
+App 8140 stderr: 
+App 8140 stderr: 
+App 8140 stdout: 
+[ 2015-02-11 06:40:45.1875 9893/b73f8700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xbjlvM3l4L3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.1n9o3yx/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '9892', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-11 06:40:45.1989 9896/b7491700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.9892/generation-0/request
+[ 2015-02-11 06:40:45.2112 9901/b746a700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.9892/generation-0/logging
+[ 2015-02-11 06:40:45.2113 9893/b73f8700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 9933 stdout: 
+App 9933 stderr: config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+App 9933 stderr: 
+App 9933 stderr:   * development - set it to false
+App 9933 stderr:   * test - set it to false (unless you use a tool that preloads your test environment)
+App 9933 stderr:   * production - set it to true
+App 9933 stderr: 
+App 9933 stderr: 
+App 9933 stdout: 
+[ 2015-02-11 06:53:10.8601 10614/b7498700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5nYXR3am8vdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.gatwjo/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '10613', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-11 06:53:10.8647 10617/b74bf700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.10613/generation-0/request
+[ 2015-02-11 06:53:10.8699 10622/b74a1700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.10613/generation-0/logging
+[ 2015-02-11 06:53:10.8710 10614/b7498700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 10654 stdout: 
+App 10654 stderr: config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+App 10654 stderr: 
+App 10654 stderr:   * development - set it to false
+App 10654 stderr:   * test - set it to false (unless you use a tool that preloads your test environment)
+App 10654 stderr:   * production - set it to true
+App 10654 stderr: 
+App 10654 stderr: 
+App 10654 stdout: 
+[ 2015-02-11 08:34:55.9637 12867/b7466700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xeWRvbzg3L3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.1ydoo87/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '12866', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-11 08:34:55.9745 12870/b7479700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.12866/generation-0/request
+[ 2015-02-11 08:34:55.9811 12875/b7468700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.12866/generation-0/logging
+[ 2015-02-11 08:34:55.9829 12867/b7466700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 12907 stdout: 
+App 12907 stderr: config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+App 12907 stderr: 
+App 12907 stderr:   * development - set it to false
+App 12907 stderr:   * test - set it to false (unless you use a tool that preloads your test environment)
+App 12907 stderr:   * production - set it to true
+App 12907 stderr: 
+App 12907 stderr: 
+App 12907 stdout: 
+[ 2015-02-12 11:25:21.7328 19721/b7448700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xeWdkcXg1L3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.1ygdqx5/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '19720', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-12 11:25:21.7390 19724/b7439700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.19720/generation-0/request
+[ 2015-02-12 11:25:21.7478 19729/b73b2700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.19720/generation-0/logging
+[ 2015-02-12 11:25:21.7490 19721/b7448700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 19765 stdout: 
+App 19765 stderr: config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+App 19765 stderr: 
+App 19765 stderr:   * development - set it to false
+App 19765 stderr:   * test - set it to false (unless you use a tool that preloads your test environment)
+App 19765 stderr:   * production - set it to true
+App 19765 stderr: 
+App 19765 stderr: 
+App 19765 stdout: 
+[ 2015-02-15 15:15:20.5664 25178/b7421700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xbHN5ZTh4L3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.1lsye8x/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '25177', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-15 15:15:20.5731 25181/b7413700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.25177/generation-0/request
+[ 2015-02-15 15:15:20.5791 25186/b747c700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.25177/generation-0/logging
+[ 2015-02-15 15:15:20.5823 25178/b7421700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 25218 stdout: 
+App 25218 stderr: config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+App 25218 stderr: 
+App 25218 stderr:   * development - set it to false
+App 25218 stderr:   * test - set it to false (unless you use a tool that preloads your test environment)
+App 25218 stderr:   * production - set it to true
+App 25218 stderr: 
+App 25218 stderr: 
+App 25218 stdout: 
+[ 2015-02-15 15:18:19.2008 25536/b7483700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5kczFmeWYvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.ds1fyf/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '25535', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-15 15:18:19.2188 25539/b73cc700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.25535/generation-0/request
+[ 2015-02-15 15:18:19.2322 25544/b741b700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.25535/generation-0/logging
+[ 2015-02-15 15:18:19.2323 25536/b7483700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 25576 stdout: 
+App 25576 stderr: config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+App 25576 stderr: 
+App 25576 stderr:   * development - set it to false
+App 25576 stderr:   * test - set it to false (unless you use a tool that preloads your test environment)
+App 25576 stderr:   * production - set it to true
+App 25576 stderr: 
+App 25576 stderr: 
+App 25576 stdout: 
+[ 2015-02-15 20:21:45.4344 3109/b7414700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS52ZjRhcnAvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.vf4arp/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '3108', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-15 20:21:45.4511 3112/b7428700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.3108/generation-0/request
+[ 2015-02-15 20:21:45.4719 3117/b7427700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.3108/generation-0/logging
+[ 2015-02-15 20:21:45.4731 3109/b7414700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 3154 stdout: 
+App 3154 stderr: config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+App 3154 stderr: 
+App 3154 stderr:   * development - set it to false
+App 3154 stderr:   * test - set it to false (unless you use a tool that preloads your test environment)
+App 3154 stderr:   * production - set it to true
+App 3154 stderr: 
+App 3154 stderr: 
+App 3154 stdout: 
+[ 2015-02-15 22:48:37.6834 7494/b73d0700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xNm53Mzh2L3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.16nw38v/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '7493', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-15 22:48:37.6883 7497/b7408700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.7493/generation-0/request
+[ 2015-02-15 22:48:37.6933 7502/b73e4700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.7493/generation-0/logging
+[ 2015-02-15 22:48:37.6953 7494/b73d0700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 7534 stdout: 
+App 7534 stderr: config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+App 7534 stderr: 
+App 7534 stderr:   * development - set it to false
+App 7534 stderr:   * test - set it to false (unless you use a tool that preloads your test environment)
+App 7534 stderr:   * production - set it to true
+App 7534 stderr: 
+App 7534 stderr: 
+App 7534 stdout: 
+[ 2015-02-15 23:43:16.1020 24826/b746a700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xd2VzeXN6L3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.1wesysz/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '24825', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-15 23:43:16.1281 24829/b74ab700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.24825/generation-0/request
+[ 2015-02-15 23:43:16.1486 24834/b73ec700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.24825/generation-0/logging
+[ 2015-02-15 23:43:16.1528 24826/b746a700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 24866 stdout: 
+App 24866 stderr: config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+App 24866 stderr: 
+App 24866 stderr:   * development - set it to false
+App 24866 stderr:   * test - set it to false (unless you use a tool that preloads your test environment)
+App 24866 stderr:   * production - set it to true
+App 24866 stderr: 
+App 24866 stderr: 
+App 24866 stdout: 
+[ 2015-02-15 23:44:13.6966 25270/b73db700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xZGw3d2Y2L3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.1dl7wf6/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '25269', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-15 23:44:13.7474 25273/b7466700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.25269/generation-0/request
+[ 2015-02-15 23:44:13.7868 25278/b74ae700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.25269/generation-0/logging
+[ 2015-02-15 23:44:13.7874 25270/b73db700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 25310 stdout: 
+App 25310 stderr: config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+App 25310 stderr: 
+App 25310 stderr:   * development - set it to false
+App 25310 stderr:   * test - set it to false (unless you use a tool that preloads your test environment)
+App 25310 stderr:   * production - set it to true
+App 25310 stderr: 
+App 25310 stderr: 
+App 25310 stdout: 
+[ 2015-02-16 00:45:12.7197 7289/b743f700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xZHR2MWluL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.1dtv1in/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzEyNy4wLjAuMTozMDAwAA==', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '7288', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-16 00:45:12.7271 7292/b74c1700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.7288/generation-0/request
+[ 2015-02-16 00:45:12.7408 7297/b748d700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.7288/generation-0/logging
+[ 2015-02-16 00:45:12.7440 7289/b743f700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 7326 stdout: 
+App 7326 stderr: DEPRECATION WARNING: The configuration option `config.serve_static_assets` has been renamed to `config.serve_static_files` to clarify its role (it merely enables serving everything in the `public` folder and is unrelated to the asset pipeline). The `serve_static_assets` alias will be removed in Rails 5.0. Please migrate your configuration files accordingly. (called from block in <top (required)> at /home/mikey/Desktop/japanfour/config/environments/production.rb:12)
+App 7326 stderr: 
+App 7326 stderr: config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+App 7326 stderr: 
+App 7326 stderr:   * development - set it to false
+App 7326 stderr:   * test - set it to false (unless you use a tool that preloads your test environment)
+App 7326 stderr:   * production - set it to true
+App 7326 stderr: 
+App 7326 stderr: 
+App 7326 stderr: DEPRECATION WARNING: You did not specify a `log_level` in `production.rb`. Currently, the default value for `log_level` is `:info` for the production environment and `:debug` in all other environments. In Rails 5 the default value will be unified to `:debug` across all environments. To preserve the current setting, add the following line to your `production.rb`:
+App 7326 stderr: 
+App 7326 stderr:    config.log_level = :info
+App 7326 stderr: 
+App 7326 stderr: . (called from block in tsort_each at /home/mikey/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/tsort.rb:150)
+App 7326 stderr: 
+App 7326 stdout: 
+[ 2015-02-16 00:51:04.3102 8139/b74c8700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5pcGl3ZHMvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.ipiwds/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzEyNy4wLjAuMTozMDAwAA==', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '8138', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-16 00:51:04.3186 8142/b7413700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.8138/generation-0/request
+[ 2015-02-16 00:51:04.3263 8147/b749c700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.8138/generation-0/logging
+[ 2015-02-16 00:51:04.3291 8139/b74c8700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 8183 stdout: 
+App 8183 stderr: DEPRECATION WARNING: The configuration option `config.serve_static_assets` has been renamed to `config.serve_static_files` to clarify its role (it merely enables serving everything in the `public` folder and is unrelated to the asset pipeline). The `serve_static_assets` alias will be removed in Rails 5.0. Please migrate your configuration files accordingly. (called from block in <top (required)> at /home/mikey/Desktop/japanfour/config/environments/production.rb:12)
+App 8183 stderr: 
+App 8183 stderr: config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+App 8183 stderr: 
+App 8183 stderr:   * development - set it to false
+App 8183 stderr:   * test - set it to false (unless you use a tool that preloads your test environment)
+App 8183 stderr:   * production - set it to true
+App 8183 stderr: 
+App 8183 stderr: 
+App 8183 stderr: DEPRECATION WARNING: You did not specify a `log_level` in `production.rb`. Currently, the default value for `log_level` is `:info` for the production environment and `:debug` in all other environments. In Rails 5 the default value will be unified to `:debug` across all environments. To preserve the current setting, add the following line to your `production.rb`:
+App 8183 stderr: 
+App 8183 stderr:    config.log_level = :info
+App 8183 stderr: 
+App 8183 stderr: . (called from block in tsort_each at /home/mikey/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/tsort.rb:150)
+App 8183 stderr: 
+App 8183 stdout: 
+[ 2015-02-16 01:21:54.4295 9340/b74a2700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xdXI1bnprL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.1ur5nzk/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzEyNy4wLjAuMTozMDAwAA==', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '9339', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-16 01:21:54.4365 9343/b7403700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.9339/generation-0/request
+[ 2015-02-16 01:21:54.4407 9348/b73eb700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.9339/generation-0/logging
+[ 2015-02-16 01:21:54.4418 9340/b74a2700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 9380 stdout: 
+App 9380 stdout: 
+[ 2015-02-16 01:21:56.9735 9343/b59feb40 Pool2/Implementation.cpp:287 ]: Could not spawn process for application /home/mikey/Desktop/japanfour: An error occured while starting the web application.
+  Error ID: fba932f5
+  Error details saved to: /tmp/passenger-error-ic3iac.html
+  Message from application: <p>It looks like Bundler could not find a gem. Maybe you didn't install all the gems that this application needs. To install your gems, please run:</p>
+
+  <pre class="commands">bundle install</pre>
+
+<p>If that didn't work, then the problem is probably caused by your application being run under a different environment than it's supposed to. Please check the following:</p>
+
+<ol>
+  <li>Is this app supposed to be run as the <code>mikey</code> user?</li>
+  <li>Is this app being run on the correct Ruby interpreter? Below you will
+      see which Ruby interpreter Phusion Passenger attempted to use.</li>
+  <li>Please check whether the correct RVM gemset is being used.</li>
+  <li>Sometimes, RVM gemsets may be broken.
+      <a href="https://github.com/phusion/passenger/wiki/Resetting-RVM-gemsets">Try resetting them.</a></li>
+</ol>
+
+<p>-------- The exception is as follows: -------</p>
+Could not find gem 'mysql (&gt;= 0) ruby' in the gems available on this machine. (Bundler::GemNotFound)
+<pre>  /home/mikey/.rvm/gems/ruby-1.9.3-p551@global/gems/bundler-1.7.6/lib/bundler/resolver.rb:357:in `resolve'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551@global/gems/bundler-1.7.6/lib/bundler/resolver.rb:164:in `start'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551@global/gems/bundler-1.7.6/lib/bundler/resolver.rb:129:in `resolve'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551@global/gems/bundler-1.7.6/lib/bundler/definition.rb:193:in `resolve'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551@global/gems/bundler-1.7.6/lib/bundler/definition.rb:132:in `specs'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551@global/gems/bundler-1.7.6/lib/bundler/definition.rb:177:in `specs_for'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551@global/gems/bundler-1.7.6/lib/bundler/definition.rb:166:in `requested_specs'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551@global/gems/bundler-1.7.6/lib/bundler/environment.rb:18:in `requested_specs'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551@global/gems/bundler-1.7.6/lib/bundler/runtime.rb:13:in `setup'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551@global/gems/bundler-1.7.6/lib/bundler.rb:121:in `setup'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551@global/gems/bundler-1.7.6/lib/bundler/setup.rb:17:in `&lt;top (required)&gt;'
+  /home/mikey/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/site_ruby/1.9.1/rubygems/core_ext/kernel_require.rb:128:in `require'
+  /home/mikey/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/site_ruby/1.9.1/rubygems/core_ext/kernel_require.rb:128:in `rescue in require'
+  /home/mikey/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/site_ruby/1.9.1/rubygems/core_ext/kernel_require.rb:39:in `require'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/lib/phusion_passenger/loader_shared_helpers.rb:263:in `block in run_load_path_setup_code'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/lib/phusion_passenger/loader_shared_helpers.rb:366:in `running_bundler'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/lib/phusion_passenger/loader_shared_helpers.rb:261:in `run_load_path_setup_code'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:96:in `load_app'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:127:in `&lt;module:App&gt;'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:27:in `&lt;module:PhusionPassenger&gt;'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:26:in `&lt;main&gt;'</pre>
+
+
+[ 2015-02-16 01:21:56.9811 9343/b61ffb40 agents/HelperAgent/RequestHandler.h:2306 ]: [Client 20] Cannot checkout session because a spawning error occurred. The identifier of the error is fba932f5. Please see earlier logs for details about the error.
+App 9451 stdout: 
+App 9451 stdout: 
+[ 2015-02-16 01:22:00.4936 9343/b59feb40 Pool2/Implementation.cpp:287 ]: Could not spawn process for application /home/mikey/Desktop/japanfour: An error occured while starting the web application.
+  Error ID: 82bf0a73
+  Error details saved to: /tmp/passenger-error-Oj6KaY.html
+  Message from application: <p>It looks like Bundler could not find a gem. Maybe you didn't install all the gems that this application needs. To install your gems, please run:</p>
+
+  <pre class="commands">bundle install</pre>
+
+<p>If that didn't work, then the problem is probably caused by your application being run under a different environment than it's supposed to. Please check the following:</p>
+
+<ol>
+  <li>Is this app supposed to be run as the <code>mikey</code> user?</li>
+  <li>Is this app being run on the correct Ruby interpreter? Below you will
+      see which Ruby interpreter Phusion Passenger attempted to use.</li>
+  <li>Please check whether the correct RVM gemset is being used.</li>
+  <li>Sometimes, RVM gemsets may be broken.
+      <a href="https://github.com/phusion/passenger/wiki/Resetting-RVM-gemsets">Try resetting them.</a></li>
+</ol>
+
+<p>-------- The exception is as follows: -------</p>
+Could not find gem 'mysql (&gt;= 0) ruby' in the gems available on this machine. (Bundler::GemNotFound)
+<pre>  /home/mikey/.rvm/gems/ruby-1.9.3-p551@global/gems/bundler-1.7.6/lib/bundler/resolver.rb:357:in `resolve'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551@global/gems/bundler-1.7.6/lib/bundler/resolver.rb:164:in `start'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551@global/gems/bundler-1.7.6/lib/bundler/resolver.rb:129:in `resolve'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551@global/gems/bundler-1.7.6/lib/bundler/definition.rb:193:in `resolve'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551@global/gems/bundler-1.7.6/lib/bundler/definition.rb:132:in `specs'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551@global/gems/bundler-1.7.6/lib/bundler/definition.rb:177:in `specs_for'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551@global/gems/bundler-1.7.6/lib/bundler/definition.rb:166:in `requested_specs'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551@global/gems/bundler-1.7.6/lib/bundler/environment.rb:18:in `requested_specs'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551@global/gems/bundler-1.7.6/lib/bundler/runtime.rb:13:in `setup'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551@global/gems/bundler-1.7.6/lib/bundler.rb:121:in `setup'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551@global/gems/bundler-1.7.6/lib/bundler/setup.rb:17:in `&lt;top (required)&gt;'
+  /home/mikey/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/site_ruby/1.9.1/rubygems/core_ext/kernel_require.rb:128:in `require'
+  /home/mikey/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/site_ruby/1.9.1/rubygems/core_ext/kernel_require.rb:128:in `rescue in require'
+  /home/mikey/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/site_ruby/1.9.1/rubygems/core_ext/kernel_require.rb:39:in `require'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/lib/phusion_passenger/loader_shared_helpers.rb:263:in `block in run_load_path_setup_code'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/lib/phusion_passenger/loader_shared_helpers.rb:366:in `running_bundler'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/lib/phusion_passenger/loader_shared_helpers.rb:261:in `run_load_path_setup_code'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:96:in `load_app'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:127:in `&lt;module:App&gt;'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:27:in `&lt;module:PhusionPassenger&gt;'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:26:in `&lt;main&gt;'</pre>
+
+
+[ 2015-02-16 01:22:00.5005 9343/b61ffb40 agents/HelperAgent/RequestHandler.h:2306 ]: [Client 20] Cannot checkout session because a spawning error occurred. The identifier of the error is 82bf0a73. Please see earlier logs for details about the error.
+[ 2015-02-16 01:22:52.5767 9839/b73f9700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xY2VzMjlzL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.1ces29s/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzEyNy4wLjAuMTozMDAwAA==', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '9838', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-16 01:22:52.5891 9842/b740c700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.9838/generation-0/request
+[ 2015-02-16 01:22:52.5986 9847/b7491700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.9838/generation-0/logging
+[ 2015-02-16 01:22:52.5988 9839/b73f9700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 9881 stdout: 
+App 9881 stderr: DEPRECATION WARNING: The configuration option `config.serve_static_assets` has been renamed to `config.serve_static_files` to clarify its role (it merely enables serving everything in the `public` folder and is unrelated to the asset pipeline). The `serve_static_assets` alias will be removed in Rails 5.0. Please migrate your configuration files accordingly. (called from block in <top (required)> at /home/mikey/Desktop/japanfour/config/environments/production.rb:12)
+App 9881 stderr: 
+App 9881 stderr: config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+App 9881 stderr: 
+App 9881 stderr:   * development - set it to false
+App 9881 stderr:   * test - set it to false (unless you use a tool that preloads your test environment)
+App 9881 stderr:   * production - set it to true
+App 9881 stderr: 
+App 9881 stderr: 
+App 9881 stderr: DEPRECATION WARNING: You did not specify a `log_level` in `production.rb`. Currently, the default value for `log_level` is `:info` for the production environment and `:debug` in all other environments. In Rails 5 the default value will be unified to `:debug` across all environments. To preserve the current setting, add the following line to your `production.rb`:
+App 9881 stderr: 
+App 9881 stderr:    config.log_level = :info
+App 9881 stderr: 
+App 9881 stderr: . (called from block in tsort_each at /home/mikey/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/tsort.rb:150)
+App 9881 stderr: 
+App 9881 stdout: 
+[ 2015-02-16 01:24:38.0330 10040/b7424700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mikey', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS50eG4ya2UvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'mikey', 'default_python' => 'python', 'default_ruby' => '/home/mikey/.rvm/gems/ruby-1.9.3-p551/wrappers/ruby', 'default_user' => 'mikey', 'log_level' => '0', 'max_pool_size' => '1', 'passenger_root' => '/tmp/passenger-standalone.txn2ke/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzEyNy4wLjAuMTozMDAwAA==', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '10039', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-02-16 01:24:38.0382 10043/b74ba700 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.10039/generation-0/request
+[ 2015-02-16 01:24:38.0438 10048/b7413700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.10039/generation-0/logging
+[ 2015-02-16 01:24:38.0445 10040/b7424700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 10082 stdout: 
+App 10082 stderr: DEPRECATION WARNING: The configuration option `config.serve_static_assets` has been renamed to `config.serve_static_files` to clarify its role (it merely enables serving everything in the `public` folder and is unrelated to the asset pipeline). The `serve_static_assets` alias will be removed in Rails 5.0. Please migrate your configuration files accordingly. (called from block in <top (required)> at /home/mikey/Desktop/japanfour/config/environments/production.rb:12)
+App 10082 stderr: 
+App 10082 stderr: config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+App 10082 stderr: 
+App 10082 stderr:   * development - set it to false
+App 10082 stderr:   * test - set it to false (unless you use a tool that preloads your test environment)
+App 10082 stderr:   * production - set it to true
+App 10082 stderr: 
+App 10082 stderr: 
+App 10082 stderr: DEPRECATION WARNING: You did not specify a `log_level` in `production.rb`. Currently, the default value for `log_level` is `:info` for the production environment and `:debug` in all other environments. In Rails 5 the default value will be unified to `:debug` across all environments. To preserve the current setting, add the following line to your `production.rb`:
+App 10082 stderr: 
+App 10082 stderr:    config.log_level = :info
+App 10082 stderr: 
+App 10082 stderr: . (called from block in tsort_each at /home/mikey/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/tsort.rb:150)
+App 10082 stderr: 
+App 10082 stdout: 
+[ 2015-02-16 01:24:43.5039 10043/b5abdb40 Pool2/Implementation.cpp:287 ]: Could not spawn process for application /home/mikey/Desktop/japanfour: An error occured while starting the web application.
+  Error ID: ff5a838f
+  Error details saved to: /tmp/passenger-error-FTNwPz.html
+  Message from application: Specified 'postgresql' for database adapter, but the gem is not loaded. Add `gem 'pg'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord). (Gem::LoadError)
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activerecord-4.2.0/lib/active_record/connection_adapters/connection_specification.rb:177:in `rescue in spec'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activerecord-4.2.0/lib/active_record/connection_adapters/connection_specification.rb:174:in `spec'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activerecord-4.2.0/lib/active_record/connection_handling.rb:50:in `establish_connection'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activerecord-4.2.0/lib/active_record/railtie.rb:120:in `block (2 levels) in <class:Railtie>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:44:in `each'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activerecord-4.2.0/lib/active_record/base.rb:316:in `<module:ActiveRecord>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activerecord-4.2.0/lib/active_record/base.rb:26:in `<top (required)>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activerecord-4.2.0/lib/active_record/relation/predicate_builder.rb:111:in `<class:PredicateBuilder>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activerecord-4.2.0/lib/active_record/relation/predicate_builder.rb:2:in `<module:ActiveRecord>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activerecord-4.2.0/lib/active_record/relation/predicate_builder.rb:1:in `<top (required)>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `block in require'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-4.2.0/lib/active_support/dependencies/autoload.rb:70:in `block in eager_load!'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-4.2.0/lib/active_support/dependencies/autoload.rb:70:in `each_value'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-4.2.0/lib/active_support/dependencies/autoload.rb:70:in `eager_load!'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activerecord-4.2.0/lib/active_record.rb:158:in `eager_load!'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-4.2.0/lib/rails/application/finisher.rb:56:in `each'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-4.2.0/lib/rails/application/finisher.rb:56:in `block in <module:Finisher>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-4.2.0/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-4.2.0/lib/rails/initializable.rb:30:in `run'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-4.2.0/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/mikey/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/tsort.rb:150:in `block in tsort_each'
+  /home/mikey/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/tsort.rb:183:in `block (2 levels) in each_strongly_connected_component'
+  /home/mikey/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/tsort.rb:219:in `each_strongly_connected_component_from'
+  /home/mikey/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/tsort.rb:182:in `block in each_strongly_connected_component'
+  /home/mikey/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/tsort.rb:180:in `each'
+  /home/mikey/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/tsort.rb:180:in `each_strongly_connected_component'
+  /home/mikey/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/tsort.rb:148:in `tsort_each'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-4.2.0/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-4.2.0/lib/rails/application.rb:352:in `initialize!'
+  /home/mikey/Desktop/japanfour/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.6.0/lib/rack/builder.rb:55:in `instance_eval'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.6.0/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:108:in `eval'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:108:in `load_app'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:127:in `<module:App>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:27:in `<module:PhusionPassenger>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:26:in `<main>'
+
+
+[ 2015-02-16 01:24:43.5220 10043/b62ffb40 agents/HelperAgent/RequestHandler.h:2306 ]: [Client 20] Cannot checkout session because a spawning error occurred. The identifier of the error is ff5a838f. Please see earlier logs for details about the error.
+App 10164 stdout: 
+App 10164 stderr: DEPRECATION WARNING: The configuration option `config.serve_static_assets` has been renamed to `config.serve_static_files` to clarify its role (it merely enables serving everything in the `public` folder and is unrelated to the asset pipeline). The `serve_static_assets` alias will be removed in Rails 5.0. Please migrate your configuration files accordingly. (called from block in <top (required)> at /home/mikey/Desktop/japanfour/config/environments/production.rb:12)
+App 10164 stderr: 
+App 10164 stderr: config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+App 10164 stderr: 
+App 10164 stderr:   * development - set it to false
+App 10164 stderr:   * test - set it to false (unless you use a tool that preloads your test environment)
+App 10164 stderr:   * production - set it to true
+App 10164 stderr: 
+App 10164 stderr: 
+App 10164 stderr: DEPRECATION WARNING: You did not specify a `log_level` in `production.rb`. Currently, the default value for `log_level` is `:info` for the production environment and `:debug` in all other environments. In Rails 5 the default value will be unified to `:debug` across all environments. To preserve the current setting, add the following line to your `production.rb`:
+App 10164 stderr: 
+App 10164 stderr:    config.log_level = :info
+App 10164 stderr: 
+App 10164 stderr: . (called from block in tsort_each at /home/mikey/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/tsort.rb:150)
+App 10164 stderr: 
+App 10164 stdout: 
+[ 2015-02-16 01:24:47.3591 10043/b5abdb40 Pool2/Implementation.cpp:287 ]: Could not spawn process for application /home/mikey/Desktop/japanfour: An error occured while starting the web application.
+  Error ID: 530d3594
+  Error details saved to: /tmp/passenger-error-jtpsHg.html
+  Message from application: Specified 'postgresql' for database adapter, but the gem is not loaded. Add `gem 'pg'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord). (Gem::LoadError)
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activerecord-4.2.0/lib/active_record/connection_adapters/connection_specification.rb:177:in `rescue in spec'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activerecord-4.2.0/lib/active_record/connection_adapters/connection_specification.rb:174:in `spec'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activerecord-4.2.0/lib/active_record/connection_handling.rb:50:in `establish_connection'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activerecord-4.2.0/lib/active_record/railtie.rb:120:in `block (2 levels) in <class:Railtie>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:44:in `each'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activerecord-4.2.0/lib/active_record/base.rb:316:in `<module:ActiveRecord>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activerecord-4.2.0/lib/active_record/base.rb:26:in `<top (required)>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activerecord-4.2.0/lib/active_record/relation/predicate_builder.rb:111:in `<class:PredicateBuilder>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activerecord-4.2.0/lib/active_record/relation/predicate_builder.rb:2:in `<module:ActiveRecord>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activerecord-4.2.0/lib/active_record/relation/predicate_builder.rb:1:in `<top (required)>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `block in require'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-4.2.0/lib/active_support/dependencies/autoload.rb:70:in `block in eager_load!'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-4.2.0/lib/active_support/dependencies/autoload.rb:70:in `each_value'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-4.2.0/lib/active_support/dependencies/autoload.rb:70:in `eager_load!'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/activerecord-4.2.0/lib/active_record.rb:158:in `eager_load!'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-4.2.0/lib/rails/application/finisher.rb:56:in `each'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-4.2.0/lib/rails/application/finisher.rb:56:in `block in <module:Finisher>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-4.2.0/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-4.2.0/lib/rails/initializable.rb:30:in `run'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-4.2.0/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/mikey/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/tsort.rb:150:in `block in tsort_each'
+  /home/mikey/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/tsort.rb:183:in `block (2 levels) in each_strongly_connected_component'
+  /home/mikey/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/tsort.rb:219:in `each_strongly_connected_component_from'
+  /home/mikey/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/tsort.rb:182:in `block in each_strongly_connected_component'
+  /home/mikey/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/tsort.rb:180:in `each'
+  /home/mikey/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/tsort.rb:180:in `each_strongly_connected_component'
+  /home/mikey/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/tsort.rb:148:in `tsort_each'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-4.2.0/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/railties-4.2.0/lib/rails/application.rb:352:in `initialize!'
+  /home/mikey/Desktop/japanfour/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.6.0/lib/rack/builder.rb:55:in `instance_eval'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.6.0/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:108:in `eval'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:108:in `load_app'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:127:in `<module:App>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:27:in `<module:PhusionPassenger>'
+  /home/mikey/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.59/helper-scripts/rack-loader.rb:26:in `<main>'
+
+
+[ 2015-02-16 01:24:47.3636 10043/b62ffb40 agents/HelperAgent/RequestHandler.h:2306 ]: [Client 20] Cannot checkout session because a spawning error occurred. The identifier of the error is 530d3594. Please see earlier logs for details about the error.

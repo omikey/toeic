@@ -1,0 +1,236 @@
+<div id="Dashboard"
+     class="sliders"
+     style="display:none;">
+  <table style="margin-top:1.2em; margin-left:1.2em;width:90%;">
+    <tr>
+      <td style="width:10em;">
+      </td>
+      <td style="font-size:1.2em;">
+        Goal Score: {{data.goal}}
+      </td>
+    </tr>
+    <tr>
+      <td style="font-size:1.2em;">
+        Summary
+      </td>
+      <td style="font-size:1.2em;">
+        Test Date: {{data.date}}
+      </td>
+    </tr>
+  </table>
+  <hr>
+  <table style="margin-top:1.2em; margin-left:1.2em;width:90%;">
+    <tr>
+      <td style="font-size:1.2em;">
+        Listening
+      </td>
+      <td colspan="3">
+      </td>
+      <td colspan="2"
+          style="font-size:1.2em; text-align: center; font-weight: 700;">
+        Average&nbsp;pace/per&nbsp;question
+      </td>
+    </tr>
+    <tr style="text-align: center">
+      <td colspan="4">
+      </td>
+      <td style="font-size:1.2em;">
+        Yours
+      </td>
+      <td style="font-size:1.2em;">
+        Others
+      </td>
+    </tr>
+    <tr ng-repeat="row in data.listening">
+      <td>
+      </td>
+      <td style="width:3.5em; font-size:1.2em;">
+        {{row.title}}:
+      </td>
+      <td>
+        <table style="width:100%; border-spacing: 0px; background-color: #8e3931">
+          <tr>
+            <td ng-style="{'background-color': '#8e3931',
+                           'width':(row.score)+'%'}">
+              &nbsp;
+            </td>
+            <td class="scores"
+                ng-if="row.score!=100">
+              &nbsp;
+            </td>
+          </tr>
+        </table>
+      </td>
+      <td style="padding-left: 1.2em; font-size:1.2em;">
+        {{row.score}}%
+      </td>
+      <td style="text-align: center; font-size:1.2em;">
+        {{row.mypace}}
+      </td>
+      <td style="text-align: center; font-size:1.2em;">
+        {{row.yourpace}}
+      </td>
+    </tr>
+    <tr>
+      <td>
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td style="font-size:1.2em;">
+        Reading
+      </td>
+    </tr>
+    <tr>
+      <td>
+        &nbsp;
+      </td>
+    </tr>
+    <tr ng-repeat="row in data.reading">
+      <td>
+      </td>
+      <td style="font-size:1.2em;">
+        {{row.title}}:
+      </td>
+      <td>
+        <table style="width:100%; border-spacing: 0px; background-color: #8e3931">
+          <tr>
+            <td ng-style="{'background-color': '#8e3931',
+                           'width':(row.score)+'%'}">
+              &nbsp;
+            </td>
+            <td class="scores"
+                ng-if="row.score!=100">
+              &nbsp;
+            </td>
+          </tr>
+        </table>
+      </td>
+      <td style=" padding-left: 1.2em;font-size:1.2em;">
+        {{row.score}}%
+      </td>
+      <td style="text-align: center;font-size:1.2em;">
+        {{row.mypace}}
+      </td>
+      <td style="text-align: center;font-size:1.2em;">
+        {{row.yourpace}}{{alert('<%= @alert %>')}}
+      </td>
+    </tr>
+    <tr>
+      <td>
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3"
+          style="font-size:1.2em;">
+        Reading Speed / wpm
+      </td>
+    </tr>
+    <tr>
+      <td>
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td>
+      </td>
+      <td style="font-size:1.2em;">
+        Goal:
+      </td>
+      <td>
+        <table style="width:100%; border-spacing: 0px; background-color: #8e3931">
+          <tr>
+            <td ng-style="{'background-color': '#8e3931',
+                           'width':(data.readingWPM.percent)+'%'}">
+              &nbsp;
+            </td>
+            <td class="scores"
+                ng-if="data.readingWPM.percent!=100">
+              &nbsp;
+            </td>
+          </tr>
+        </table>
+      </td>
+      <td colspan="3"
+          style="padding-left: 1.2em;font-size:1.2em;">
+        {{data.readingWPM.total}} / 150
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+      </td>
+      <td style="text-align: center;font-size:1.2em;">
+        {{data.readingWPM.percent}}%
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3"
+          style="font-size:1.2em;">
+        Vocabulary
+      </td>
+    </tr>
+    <tr>
+      <td>
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td>
+      </td>
+      <td style="font-size:1.2em;">
+        Goal:
+      </td>
+      <td>
+        <table style="width:100%; border-spacing: 0px; background-color: #8e3931">
+          <tr>
+            <td ng-style="{'background-color': '#8e3931',
+                           'width':(data.vocabulary.percent)+'%'}">
+              &nbsp;
+            </td>
+            <td class="scores"
+                ng-if="data.vocabulary.percent!=100">
+              &nbsp;
+            </td>
+          </tr>
+        </table>
+      </td>
+      <td colspan="3"
+          style="padding-left: 1.2em;font-size:1.2em;">
+        {{data.vocabulary.total}} / 8000
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+      </td>
+      <td style="text-align: center;font-size:1.2em;">
+        {{data.vocabulary.percent}}%
+      </td>
+    </tr>
+    <tr>
+      <td>
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td style="font-size:1.2em;">
+        Chart
+      </td>
+    </tr>
+  </table>
+  <hr>
+  <canvas id="thisGraph"
+          height="4500"
+          width="6200"
+          class="graph">
+  </canvas>
+  <button id="verify"
+          style="display:none"
+          ng-click="messenger('Thank you. A confirmation email has been sent.',
+                              300, 200, 'Registration almost complete!', ['OK'])">
+  </button>
+  <button id="refresh"
+          style="display:none"
+          ng-click="refresh()">
+  </button>
+</div>

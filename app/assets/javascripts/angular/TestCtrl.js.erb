@@ -1,0 +1,628 @@
+app.controller("TestCtrl", ['$rootScope', '$scope', '$sce', '$interval', 'Test', 'TestSave', 'TestFetch', 'TestPart', 'AnswerSave', function ($rootScope, $scope, $sce, $interval, Test, TestSave, TestFetch, TestPart, AnswerSave) {
+    $scope.data = [];
+    $scope.boxes = [];
+    $scope.sections = 0;
+    $scope.future = null;
+    $scope.testQueue = [0];
+    $scope.seconds = '';
+    $scope.minutes = '';
+    $scope.hours = '';
+    $scope.radioValue = [];
+    $scope.index = 1;
+    $scope.testDescrip = 'Description <br> ...';
+    $scope.admin = false;
+    $scope.questions = [];
+    $scope.thisQuestion = ['',''];
+    $scope.setHeight = '';
+    $scope.checkLater = [];
+    $scope.answers = 'ABCD';
+    $scope.finalAnswer = '';
+    $scope.theseNumbs = 1;
+    $scope.clumps = [];
+    $scope.checks = [];
+    $scope.linkBox = false;
+    $scope.radioCount = null;
+    $scope.partSelect = 1;
+    $scope.dimeSelect = 1;
+    $scope.pennySelect = 0;
+    $scope.bools = [];
+    $scope.which_one = 1;
+
+    var timesUp = false;
+
+    for (var i = 0; i < 201; i++)
+    {
+        $scope.checks[i] = false;
+    }
+
+    $scope.apartide = function(int)
+    {
+        return 'Part ' + int;
+    };
+
+    $scope.addAnswers = function(increment)
+    {
+        var size = $scope.answers.length;
+        if ((size > 2 || increment > 0) && (size < 10 || increment < 0))
+        {
+            size += increment;
+            $scope.answers = size == 2 ? 'TX' : 'ABCDEFGH'.substring(0,size);
+        }
+    };
+
+    $scope.expandView = function()
+    {
+        $rootScope.$broadcast('Messenger', 'expand');
+    };
+
+    $scope.moveIndex = function(index)
+    {
+        var target = $(index.target);
+        if (!target.attr('id'))
+        {
+            target = target.parent();
+        }
+        $scope.index = parseInt(target.attr('id').substring(1));
+        $scope.theseNumbs = $scope.index;
+        $scope.changeIndex(0);
+    };
+
+    $scope.checkAfter = function(clicked)
+    {
+        var box = $('#Part1').find('input[type="checkbox"]');
+        var checked = box.prop('checked');
+        if (checked && clicked)
+        {
+            $scope.checkLater[$scope.index - 1] = true;
+            $('#r' + $scope.index).css('background-color', 'rgba(41, 148, 195, 0.26)');
+        }
+        if (!checked && clicked)
+        {
+            $scope.checkLater[$scope.index - 1] = false;
+            $('#r' + $scope.index).css('background-color', '');
+        }
+        //box.prop('checked',$scope.checkLater[$scope.index - 1]);
+    };
+
+    $scope.addQuestion = function () {
+        $('#TestMain').fadeOut(500);
+        $scope.fetch();
+        $('#TestEdit').fadeIn(500);
+    };
+
+    $scope.updateDescrip = function()
+    {
+        $('#descrip').html($('#descripEdit').html());
+    };
+
+    $scope.avatarHTML = function(avatar)
+    {
+        return '<object data="' + avatar + '" type="image/png"></object>';
+    };
+
+    $scope.startTest = function()
+    {
+        for (var i = 0; i <= 200; i++)
+        {
+            $scope.radioValue[i] = -1;
+        }
+        timesUp = true;
+        var sel = $('input[type="checkbox"]:checked');
+        for (var i = 0; i < sel.length; i++)
+        {
+            $scope.testQueue[i] = $(sel.get(i)).attr('id');
+        }
+        $scope.openPart();
+    };
+
+    $scope.parse = function(string)
+    {
+        return parseInt(string);
+    };
+
+    $scope.setAnswer = function(num, ans)
+    {
+        $scope.radioValue[num] = ans;
+    };
+
+    $scope.fetch = function()
+    {
+        var identifier = 'p' + $scope.partSelect + '|';
+        identifier += 'q' + ($scope.dimeSelect + parseInt($scope.pennySelect)) + '|';
+        TestFetch.get({identifier:identifier}, function(resp)
+        {
+            if (resp.part)
+            {
+                $('#textarea2').html(resp.html || '(empty)');
+                $scope.linkBox = resp.link == 1;
+                $scope.answers = resp.count;
+                $scope.radioCount = resp.answer;
+                $scope.bools = resp.bools;
+                $scope.which_one = resp.which_one
+            }
+            else
+            {
+                $('#textarea2').html('(empty)');
+                $scope.linkBox = false;
+                $scope.answers = 'ABCD';
+                $scope.radioCount = null;
+                $scope.bools = resp.bools;
+                $scope.which_one = 1;
+            }
+            $('#preview').html($('#textarea2').html());
+        });
+    };
+
+    $interval(function(){
+        var now = new Date();
+        var difference = Math.floor(($scope.future - now) / 1000);
+        var seconds = difference % 60;
+        difference = Math.floor(difference / 60);
+        var minutes = difference % 60;
+        difference = Math.floor(difference / 60);
+        var hours = difference % 24;
+        $scope.seconds = seconds + (seconds == 1 ? " second" : " seconds") + ' remaining';
+        $scope.minutes = minutes > 0 ? minutes + (minutes == 1 ? " minute," : " minutes,") : '';
+        $scope.hours = hours > 0 ? hours + (hours == 1 ? " hour," : " hours,") : '';
+        if((seconds <= 0)&&(minutes <= 0)&&(hours <= 0))
+        {
+            $scope.seconds = 'Time is up.';
+            if (timesUp)
+            {
+                var time = $('span[ng-bind="seconds"]');
+                time.css('font-weight','600');
+                setTimeout(function()
+                {
+                    time.css('font-weight','');
+                    $scope.openPart();
+                }, 2000);
+                timesUp = false;
+            }
+        }
+    }, 1000);
+
+    $scope.getImage = function(pic)
+    {
+        return pic.html;
+    };
+
+    $scope.openPart = function()
+    {
+        $scope.pluck = $scope.testQueue[0];
+        var q = $scope.testQueue;
+        $scope.testQueue = [];
+        if (q.length == 0)
+        {
+            $('#Part1').fadeOut(500);
+            $('#alterHeight').css('height','67em');
+            $rootScope.$broadcast('Dashboard', 'fadeIn');
+        }
+        else
+        {
+            for (var i = 1; i < q.length; i++)
+            {
+                $scope.testQueue[i-1] = q[i];
+            }
+
+        $('#TestMain').fadeOut(500);
+        $scope.index = $scope.pluck == 1 ? 1 : $scope.pluck == 2 ? 11 : $scope.pluck == 3 ? 41 : $scope.pluck == 4 ? 71 : $scope.pluck == 5 ? 101 : $scope.pluck == 6 ? 141 : 153;
+        $scope.theseNumbs = $scope.index;
+        TestPart.get({part:$scope.pluck}, function(resp)
+        {
+            var qs = resp.questions;
+            $scope.clumps = [];
+            $scope.clumps[$scope.index] = 0;
+            for (var i = 0; i < qs.length; i++)
+            {
+                $scope.questions[($scope.index - 1) + i] = qs[i];
+                if (qs[i].link == 1)
+                {
+                    $scope.clumps[$scope.index+1+i] = $scope.clumps[$scope.index+i] + 1;
+                }
+                else
+                {
+                    $scope.clumps[$scope.index+1+i] = 0;
+                }
+            }
+            for (var i = 0; i < $scope.questions.length; i++)
+            {
+                $scope.checkLater.push(false);
+            }
+            $scope.thisQuestion[$scope.index % 2] = $scope.questions[$scope.index-1].html;
+            $scope.setHeight = $scope.questions[$scope.index-1].html;
+            $scope.answers = $scope.questions[$scope.index-1].count;
+            $scope.theseNumbs += $scope.questions[$scope.index-1].range - 1;
+        });
+        $('#Part1').fadeIn(500);
+
+        $('#gameBox' + ($scope.index + 1) % 2).css('z-index','0');
+        $('#gameBox' + $scope.index % 2).css('z-index','25');
+
+        $('#gameBox' + ($scope.index + 1) % 2).fadeOut(500);
+        $('#gameBox' + $scope.index % 2).fadeIn(500);
+        $('#alterHeight').css('height', '80em');
+        $scope.checkAfter(false);
+
+        $scope.future = new Date(new Date().getTime() + 10*60000 + 1000);
+        }
+    };
+
+    $scope.changeIndex = function(increment)
+    {
+        $scope.index += increment;
+        $scope.theseNumbs = $scope.index;
+        if($scope.questions[$scope.index-1])
+        {
+            $scope.answers = $scope.questions[$scope.index-1].count;
+            $scope.theseNumbs += $scope.questions[$scope.index-1].range - 1;
+
+            if (!$scope.questions[$scope.index-2] || $scope.questions[$scope.index-2].link == 0)
+            {
+                $scope.thisQuestion[$scope.index % 2] = $scope.questions[$scope.index-1].html;
+                $scope.setHeight = $scope.questions[$scope.index-1].html;
+
+                $('#gameBox' + ($scope.index + 1) % 2).css('z-index','0');
+                $('#gameBox' + $scope.index % 2).css('z-index','25');
+
+                $('#gameBox' + ($scope.index + 1) % 2).fadeOut(500);
+                $('#gameBox' + $scope.index % 2).fadeIn(500, function(){});
+            }
+            else if (increment != 1)
+            {
+
+                $scope.thisQuestion[$scope.index % 2] = $scope.questions[$scope.index-2].html;
+                $scope.setHeight = $scope.questions[$scope.index-2].html;
+
+                $('#gameBox' + ($scope.index + 1) % 2).css('z-index','0');
+                $('#gameBox' + $scope.index % 2).css('z-index','25');
+
+                $('#gameBox' + ($scope.index + 1) % 2).fadeOut(500);
+                $('#gameBox' + $scope.index % 2).fadeIn(500, function(){});
+            }
+            $scope.checkAfter(false);
+        }
+        else
+        {
+            $scope.openPart();
+        }
+    };
+
+    $scope.hello = function() {
+        alert('hello');
+    };
+
+    $scope.trustAsHtml = function(string) {
+        return $sce.trustAsHtml(string);
+    };
+
+    $scope.chooseSection = function() {
+        switch (parseInt($('.circles:checked').val())) {
+            case 0:
+                for (var i = 1; i < 5; i++)
+                {
+                    $('#' + i).prop('checked', true);
+                }
+                for (var i = 5; i < 8; i++)
+                {
+                    $('#' + i).prop('checked', false);
+                }
+                break;
+            case 1:
+                for (var i = 1; i < 5; i++)
+                {
+                    $('#' + i).prop('checked', false);
+                }
+                for (var i = 5; i < 8; i++)
+                {
+                    $('#' + i).prop('checked', true);
+                }
+                break;
+            case 2:
+                for (var i = 0; i < 8; i++)
+                {
+                    $('#' + i).prop('checked', true);
+                }
+                break;
+    }};
+
+    $scope.saveTest = function(identifier)
+    {
+        TestSave.get({identifier:identifier,html:$(identifier).html()});
+    };
+
+    $scope.saveAnswers = function(kidsOfAmerica, k)
+    {
+        if (kidsOfAmerica.length > 0)
+        {
+            var answer_group = $(kidsOfAmerica.get(0)).children();
+            var blank = answer_group.get(0).innerHTML.charAt(0) != '(';
+            var save_group = {};
+            save_group[0] = blank;
+            save_group[1] = $scope.partSelect;
+            save_group[2] = answer_group.length;
+            save_group[3] = ($scope.dimeSelect + parseInt($scope.pennySelect) + k);
+            for (var i = 0; i < answer_group.length; i++)
+            {
+                save_group[i+4] = answer_group.get(i).innerHTML;
+            }
+            AnswerSave.get(save_group, function() {
+                k++;
+                $scope.saveAnswers(kidsOfAmerica.not(kidsOfAmerica.get(0)),k);
+            });
+        }
+        else
+        {
+            var textarea = $('#textarea2');
+            var trim_me = textarea.find('.multiple');
+            for (var i = 0; i < trim_me.length; i++)
+            {
+                trim_me.get(i).innerHTML = '[[' + i + ']]';
+            }
+            var identifier = 'p' + $scope.partSelect + '|';
+            identifier += 'q' + ($scope.dimeSelect + parseInt($scope.pennySelect)) + '|';
+            identifier += 'c' + $('.radioCount').length + '|';
+            identifier += 'l' + ($scope.linkBox ? 1 : 0) + '|';
+            identifier += 'a' +$('#TestEdit').find('input[name="radio"]:checked').attr('id') || 9;
+            var html = textarea.html();
+            TestSave.get({identifier:identifier,html:html,kids:k},function()
+            {
+                $scope.fetch();
+            });
+        }
+    };
+
+    $scope.editQuestion = function()
+    {
+        var textarea = $('#textarea2');
+        if ($scope.which_one == 1)
+        {
+            $scope.saveAnswers(textarea.find('.multiple'), 0);
+        }
+        else
+        {
+            var identifier = 'p' + $scope.partSelect + '|';
+            identifier += 'q' + ($scope.dimeSelect + parseInt($scope.pennySelect)) + '|';
+            identifier += 'c' + $('.radioCount').length + '|';
+            identifier += 'l' + ($scope.linkBox ? 1 : 0) + '|';
+            identifier += 'a' +$('#TestEdit').find('input[name="radio"]:checked').attr('id') || 9;
+            var html = textarea.html();
+            TestSave.get({identifier:identifier,html:html},function()
+            {
+                $scope.fetch();
+            });
+        }
+    };
+
+    $scope.testIndex = function () {
+        Test.get({'get': 'index'}, function (resp) {
+
+            $scope.descrip = resp.descrip;
+            $scope.admin = resp.admin;
+            $('#alterHeight').css('height', '80em');
+            $('#descrip').html(resp.descrip);
+            $('#descripEdit').html(resp.descrip);
+
+            for (var i = 1; i < 5; i++)
+            {
+                $('#' + i).attr('checked', true);
+            }
+            for (var i = 1; i < 8; i++)
+            {
+                $('#' + i).attr('checked', false);
+            }
+            $('#circle1').attr('checked', true);
+
+            $('#TestEdit').fadeOut(500);
+            $('#TestMain').fadeIn(500);
+        });
+    };
+
+    $scope.setLink = function (event) {
+        $scope.styleBox(2, event, false);
+        $scope.styleBox(4, event, false);
+        $scope.styleBox(5, event, false);
+    };
+
+    $scope.styleBox = function (style, event, reverse) {
+        var undo = true;
+        var highlights = [];
+        var next = $(event.target).next().val();
+        var prev = $(event.target).prev().val();
+        var styles = ['font-weight', 'font-style', 'text-decoration', 'font-size',
+            'color', 'cursor', '', 'letters'];
+        var values = ['600', 'italic', 'underline', next + 'px', 'blue', 'pointer',
+            '', 'ABCD'];
+
+
+        var range = window.getSelection().getRangeAt(0);
+        var node = range.startContainer;
+        if ($.contains($('#textarea2').get(0),node))
+        {
+            if (node.parentNode.id.length < 1) {
+                node = node.parentNode;
+            }
+            if (node.parentNode.id.length < 1) {
+                node = node.parentNode;
+            }
+            if (node.parentNode.id.length < 1) {
+                node = node.parentNode;
+            }
+            var nodes = node.parentNode.childNodes;
+
+            var thisHTML = '';
+            var k = 0;
+            while (nodes[k] != node) {
+                thisHTML += nodes[k].outerHTML || '<span>' + $(nodes[k]).text() + '</span>';
+                k++;
+            }
+            var jNodeCopy = $(node.outerHTML || '<span>' + $(node).text() + '</span>');
+            var jNodeText = jNodeCopy.text().substring(0, range.startOffset);
+            jNodeCopy.html(jNodeText);
+            thisHTML += jNodeCopy.get(0).outerHTML;
+            k++;
+
+            var start = range.startOffset;
+            var b = $(node).text().length - start;
+            var selectSpan = range.toString().length;
+            while (b < selectSpan) {
+                jNodeCopy = $(node.outerHTML || '<span>' + $(node).text() + '</span>');
+                jNodeText = jNodeCopy.text().substring(start, start + b);
+                jNodeCopy.html(jNodeText);
+                if (reverse) {
+                    undo = false;
+                    jNodeCopy.css(styles[style], '');
+                    if (style == 5) {
+                        jNodeCopy.removeAttr('onclick');
+                        jNodeCopy.css('color', '');
+                        jNodeCopy.css('cursor', '');
+                    }
+                }
+                else {
+                    if (jNodeCopy.css(styles[style]) != values[style]) {
+                        undo = false;
+                    }
+                    if (style == 6)
+                    {
+                        jNodeCopy = $('<div style="text-align: center">' + jNodeCopy.get(0).outerHTML + '</div>')
+                    }
+                    else if (style == 7)
+                    {
+                        var textScript = '<div class="multiple" style="vertical-align: top; display: inline-block; margin-bottom: 31px;">';
+                        textScript += '<div>_</div></div>&nbsp;';
+                        jNodeCopy = $(textScript);
+                    }
+                    else
+                    {
+                        jNodeCopy.css(styles[style], values[style]);
+                        if (style == 4) {
+                            jNodeCopy.attr('onclick', "window.location.href='" + prev + "'");
+                        }
+                    }
+                }
+                thisHTML += jNodeCopy.get(0).outerHTML;
+                selectSpan -= b;
+                node = node.nextSibling;
+                b = $(node).text().length;
+                start = 0;
+                highlights.push(k);
+                k++;
+            }
+            if (b == selectSpan) {
+                jNodeCopy = $(node.outerHTML || '<span>' + $(node).text() + '</span>');
+                jNodeText = jNodeCopy.text().substring(start);
+                jNodeCopy.html(jNodeText);
+                if (reverse) {
+                    undo = false;
+                    jNodeCopy.css(styles[style], '');
+                    if (style == 5) {
+                        jNodeCopy.removeAttr('onclick');
+                        jNodeCopy.css('color', '');
+                        jNodeCopy.css('cursor', '');
+                    }
+                }
+                else {
+                    if (jNodeCopy.css(styles[style]) != values[style]) {
+                        undo = false;
+                    }
+                    if (style == 6)
+                    {
+                        jNodeCopy = $('<div style="text-align: center">' + jNodeCopy.get(0).outerHTML + '</div>')
+                    }
+                    else if (style == 7)
+                    {
+                        var textScript = '<div class="multiple" style="vertical-align: top; display: inline-block; margin-bottom: 31px;">';
+                        textScript += '<div>_</div></div>&nbsp;';
+                        jNodeCopy = $(textScript);
+                    }
+                    else {
+                        jNodeCopy.css(styles[style], values[style]);
+                        if (style == 4) {
+                            jNodeCopy.attr('onclick', "window.location.href='" + prev + "'");
+                        }
+                    }
+                }
+                thisHTML += jNodeCopy.get(0).outerHTML;
+                highlights.push(k);
+                k++;
+            }
+            if (b > selectSpan) {
+                jNodeCopy = $(node.outerHTML || '<span>' + $(node).text() + '</span>');
+                jNodeText = jNodeCopy.text().substring(start, start + selectSpan);
+                jNodeCopy.html(jNodeText);
+                if (reverse) {
+                    undo = false;
+                    jNodeCopy.css(styles[style], '');
+                    if (style == 5) {
+                        jNodeCopy.removeAttr('onclick');
+                        jNodeCopy.css('color', '');
+                        jNodeCopy.css('cursor', '');
+                    }
+                }
+                else {
+                    if (jNodeCopy.css(styles[style]) != values[style]) {
+                        undo = false;
+                    }
+                    if (style == 6)
+                    {
+                        jNodeCopy = $('<div style="text-align: center">' + jNodeCopy.get(0).outerHTML + '</div>')
+                    }
+                    else if (style == 7)
+                    {
+                        var textScript = '<div class="multiple" style="vertical-align: top; display: inline-block; margin-bottom: 31px;">';
+                        textScript += '<div>_</div></div>&nbsp;';
+                        jNodeCopy = $(textScript);
+                    }
+                    else {
+                        jNodeCopy.css(styles[style], values[style]);
+                        if (style == 4) {
+                            jNodeCopy.attr('onclick', "window.location.href='" + prev + "'");
+                        }
+                    }
+                }
+                thisHTML += jNodeCopy.get(0).outerHTML;
+                highlights.push(k);
+                k++;
+
+                jNodeCopy = $(node.outerHTML || '<span>' + $(node).text() + '</span>');
+                jNodeText = jNodeCopy.text().substring(start + selectSpan);
+                jNodeCopy.html(jNodeText);
+                thisHTML += jNodeCopy.get(0).outerHTML;
+            }
+            while (node.nextSibling) {
+                node = node.nextSibling;
+                thisHTML += node.outerHTML || '<span>' + $(node).text() + '</span>';
+            }
+
+            if (undo) {
+                $scope.styleBox(style, event, true)
+            }
+            else {
+                var area = $('#textarea2');
+                area.html(thisHTML);
+                $('#preview').html(thisHTML);
+                var p = area.children();
+                if ($(p.get(p.length - 1)).text().length > 0) {
+                    area.append('<span>&nbsp;</span>');
+                    p = area.children();
+                }
+                var s = window.getSelection();
+                var r = document.createRange();
+                r.setStart(p.get(highlights[0]), 0);
+                var last = p.get(highlights[highlights.length - 1] + 1);
+                r.setEnd(last, 0);
+                s.removeAllRanges();
+                s.addRange(r);
+            }
+        }
+    };
+
+    $scope.$on('Test', function (event, arg) {
+        $scope.testIndex();
+    });
+
+    angular.element(document).ready(function () {
+
+    });
+
+
+}]);

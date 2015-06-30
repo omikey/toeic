@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+  <title>EZTOEIC</title>
+  <%= stylesheet_link_tag    "application", media: "all" %>
+  <%= javascript_include_tag "application", controller_name %>
+  <%= favicon_link_tag %>
+  <link rel="icon" type="image/png" sizes="96x96" href="<%= image_url('favicon-96x96.png') %>">
+  <script type="text/javascript">
+      AudioPlayer.setup("<%= asset_path('player.swf') %>", {
+          autostart: 'yes',
+          transparentpagebg: "yes",
+          width: 290
+      });
+  </script>
+      </head>
+<body style="margin:0; background-color: #262626" ng-controller="MasterCtrl" chrome="<%= request.env['HTTP_USER_AGENT'].downcase.include? 'chrome' %>" ng-init="setCookies()">
+<table class="backdrop" style="background-size: 100% 13.2em; background-repeat: no-repeat; width:100%; border-spacing: 0px;">
+  <tr>
+    <td></td>
+    <td style="border:0; height:140px; width:975px" colspan="6">
+      <img src="<%= image_url('eztoeic.png') %>" style="position:relative;" />
+    </td>
+    <td colspan="3">
+      <div ng-style="{display:'<%= session[:user].nil? ? "inline-block" : "none" %>'}"
+           style="margin-left: 4em; text-align:center;"
+           class="logins"
+           id="logger1"
+           ng-click="regLog(1)">
+        Register
+      </div>
+      <div ng-style="{display:'<%= session[:user].nil? ? "inline-block" : "none" %>'}"
+           style="margin-left:2em;text-align:center;"
+           class="logins"
+           id="logger2"
+           ng-click="regLog(2)">
+        Sign-In
+      </div>
+      <div ng-style="{display:'<%= !session[:user].nil? ? "inline-block" : "none" %>'}"
+           style="margin-left: 4em; text-align:center;"
+           class="logins"
+           id="logger3"
+           ng-click="regLog(3)">
+        Sign Out
+      </div>
+      <div ng-style="{display:'<%= !session[:user].nil? ? "inline-block" : "none" %>'}"
+           style="margin-left:2em;text-align:center;"
+           class="logins"
+           id="logger4"
+           ng-click="regLog(4)">
+        <%= session[:user].nil? ? 'nobody' : session[:user]['login'] %>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <% if session[:admin] %>
+    <td class='tabs'
+        ng-style="{'background-color':($first ? 'gray' : '#262626'),visibility:($odd ? 'hidden' : 'visible'), width: ($odd ? '.5em' : '8em')}"
+        ng-repeat="tab in ['Dashboard','1', 'Lessons','2','Training','3','Test','4','Community']"
+        ng-click="focusTab($event)"
+        name="{{tab}}"
+        ng-cloak>
+      {{tab}}
+    </td>
+    <% else %w{Dashboard 1 Lessons 2 Training 3 Test 4 Community}.each_with_index do |k,l| %>
+    <td class="tabs"
+        ng-style='{"background-color":"<%= l == 0 ? 'gray' : '#262626' %>",visibility:"<%= l % 2 == 1 ? 'hidden' : 'visible' %>", width: "<%= l % 2 == 1 ? '.5em' : '8em' %>"}'
+        ng-click='getTab($event)'
+        name="<%= l %>"
+        ng-cloak>
+      <%= k %>
+    </td>
+    <% end end %>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td colspan="9" style="background-color: white;">
+      <table style="width:100%; height:100%; border-spacing: 0px">
+        <tr>
+          <td id="alterHeight" style="border: solid white 10px; width:960px; height:67em; background-color: #ffffff; font-size: 1.3em; font-family: 'Arial';">
+            <%= yield %>
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td></td>
+  </tr>
+</table>
+<button style="display:none" ng-click="updateProfile()" type="button" id="updater"></button>
+</body>
+</html>

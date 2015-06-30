@@ -1,0 +1,256 @@
+<div id="TestEdit" style="display:none; width:100%; vertical-align: top; height:100%; position:absolute; top:0em; border-spacing: 0;">
+  <table>
+    <tr>
+      <td colspan="3" style="text-align: center;">
+        <span ng-repeat="k in '1234567'" style="font-size: 1.4em;">
+          Part {{k}}
+          <span ng-if="!$last"> | </span>
+        </span>
+        <br>
+        <hr>
+      </td>
+    </tr>
+    <tr>
+      <td style="font-size: 1.4em; padding-bottom: 1.5em;">
+        Preview:
+      </td>
+      <td colspan="2" style="font-size: 1.4em; text-align: right;">
+        <span ng-bind="hours"></span>
+        <span ng-bind="minutes"></span>
+        <span ng-bind="seconds"></span>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3" style="font-size: 1.4em;">
+        <div style="font-size: 1em; box-shadow: 2px 2px 9px 5px #666666; -webkit-box-shadow: 2px 2px 9px 5px #666666; -moz-box-shadow: 2px 2px 9px 5px #666666; -o-box-shadow: 2px 2px 9px 5px #666666">
+          <div style="font-family: arial, sans-serif; font-size: 24px; line-height: 1.2em; display: inline-block; width: 473px; height:391px; margin: 1em 2em 2em 2em; border-right: solid 2px dimgray; padding-right: 1em;">
+            {{index%100}}.<br>
+            <div id="preview"></div>
+          </div>
+          <div style="display: inline-block; width: 12em; vertical-align: top; margin-top:1em; text-align: center;">
+            <input ng-model="checks[index]" type="checkbox" style="height: 2em; width: 2em;">
+            <br>
+            Check this later
+            <br>
+            <table style="height: 333px; width: 267px; font-size: 1em;">
+              <tr ng-repeat="l in answers">
+                <td style="line-height: 1.3em; vertical-align: middle; font-size: 23px;">
+                  <div style="cursor:pointer; display: inline-block; vertical-align: top;" onclick="$(this).next().click();">
+                    {{l == 'T' ? 'True' : l == 'X' ? 'False' : '(' + l + ')'}}
+                  </div>
+                  <input ng-model="radioCount" class="radioCount" value="{{$index}}" id="{{$index}}" type="radio" name="radio" style="height: 2em; width: 2em;">
+                </td>
+              </tr>
+            </table>
+            <button style="font-size: 1em;" type="button" ng-click="changeIndex(-1)" disabled>< Back</button>
+            <button style="font-size: 1em; margin-left:1em;" type="button" ng-click="changeIndex(1)" disabled>Next ></button>
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3"
+          style="padding-top:3em">
+        <table style="width:66em">
+          <tr>
+            <td colspan="2">
+              <div style="width:60%; display: inline-block;">
+                <button type="button"
+                        onmouseup="$('#preview').html($('#textarea2').html())"
+                        ng-mousedown="styleBox(0,$event, false)"
+                        style="font-family: arial; font-weight: 600">
+                  B
+                </button>
+                <button type="button"
+                        onmouseup="$('#preview').html($('#textarea2').html())"
+                        ng-mousedown="styleBox(1,$event, false)"
+                        style="font-family: 'Consolas', monospace; font-style: italic">
+                  I
+                </button>
+                <button type="button"
+                        onmouseup="$('#preview').html($('#textarea2').html())"
+                        ng-mousedown="styleBox(2,$event, false)"
+                        style="font-family: arial; text-decoration: underline">
+                  U
+                </button>
+                <button type="button"
+                        onmouseup="$('#preview').html($('#textarea2').html())"
+                        ng-mousedown="styleBox(6,$event, false)"
+                        style="font-family: arial;">
+                  center
+                </button>
+                <input type="image"
+                       src="<%= asset_url('snd.png')%>"
+                       onclick="$('#TestEdit').find('#editFile').attr('class','snd');$('#TestEdit').find('#editFile').click()"
+                       style="height: 20px; position: relative; top: 6px;">
+                <button type="button"
+                        onclick="$(this).next().attr('class','pic');$(this).next().click()"
+                        style="font-family: arial;">
+                  img
+                </button>
+                <input type="file"
+                       id="editFile"
+                       style="display:none">
+                <button type="button"
+                        onmouseup="$('#preview').html($('#textarea2').html())"
+                        ng-mousedown="styleBox(3,$event, false)"
+                        style="font-family: arial;">
+                  font size:
+                </button>
+                <input type="text" placeholder="24px" style="width:3em">
+                </input>
+                <button type="button"
+                        onmouseup="$('#preview').html($('#textarea2').html())"
+                        ng-mousedown="styleBox(7,$event, false)"
+                        style="font-family: arial;">
+                  ABCD
+                </button>
+              </div>
+              <div style="width:37%; display: inline-block; float: right; text-align: right;">
+                <input id="copylink"
+                       type="text"
+                       style="font-family:arial; width:80%; padding-left: 5px;"
+                       placeholder="Enter URL here to create a link.">
+                </input>
+                <button type="button"
+                        onmouseup="$('#preview').html($('#textarea2').html())"
+                        ng-mousedown="setLink($event)"
+                        style="font-family: arial; color: blue; text-decoration: underline">
+                  link
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <div id="textarea2"
+                   onkeyup="$('#preview').html($(this).html())"
+                   contenteditable="true"
+                   style="line-height: 1.2em; overflow-y: scroll; width:100%; font-family: arial, sans-serif; font-size:24px; color: black; border:2px gray solid; height:8em; z-index: 50;">
+              </div>
+            </td>
+            <td style="vertical-align: top; text-align: center; width: 150px;">
+              <div>
+                <button type="button" ng-click="addAnswers(-1)">
+                  -
+                </button> Answers <button type="button" ng-click="addAnswers(1)">
+                  +
+                </button>
+              </div>
+              <div><br></div>
+              <div style="font-size: 21px; margin-top: 47px; display: inline-flex;">
+                <div style="display:inline-flex;"><input type="checkbox" id="link" ng-model="linkBox" style="display: inline-block; height: 16px; width: 16px;"></div>
+                <div style="font-weight:600; display:inline-flex; width: 113px; text-align: left;">Link this question to the next question.</div>
+              </div>
+              <div><br></div>
+              <div style="font-size: 21px; margin-top: 47px; display: inline-flex;">
+                Which one: <span ng-bind="which_one"></span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button type="button"
+                      ng-click="testIndex()"
+                      style="width:100%;">
+                Cancel
+              </button>
+            </td>
+            <td>
+              <button id="editSubmit"
+                      type="button"
+                      ng-click="editQuestion()"
+                      style="width:100%;">
+                Submit
+              </button>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+    <td>
+      &nbsp;
+    </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        <select style="font-size:20px" ng-change="fetch()" ng-model="partSelect" ng-options="('Part ' + part) for part in [1,2,3,4,5,6,7] track by part"></select>
+        <select style="font-size:20px" ng-change="fetch()" ng-model="dimeSelect" ng-options="('Questions ' + dime + ' - ' + (dime + 9)) for dime in [1,11,21,31,41,51,61,71,81,91] track by dime"></select>
+        <select style="font-size:20px" ng-change="fetch()" ng-model="pennySelect" class="base-class" ng-class="(bools[parse(pennySelect)+dimeSelect-1] ? 'green' : 'white')">
+          <option ng-repeat="penny in [0,1,2,3,4,5,6,7,8,9]" class="base-class" ng-class="(bools[penny] ? 'green' : 'white')" value="{{penny}}">Question {{dimeSelect + penny}}</option>
+        </select>
+      </td>
+    </tr>
+  </table>
+</div>
+<script>
+    $(function () {
+        $('#TestEdit').find("#editFile").each(function (i, elem) {
+            var fileInput = $('#TestEdit').find("#editFile");
+            //var form = $(fileInput.parents('form:first'));
+            var submitButton = $('#TestEdit').find('#editSubmit');
+            //var progressBar = $("<div class='bar'></div>");
+            //var barContainer = $("<div class='progress'></div>").append(progressBar);
+            //$('#thisButt').after(barContainer);
+            var denverOmlet = JSON.parse('<%= @s3_direct_post.fields.to_json.html_safe %>');
+
+            fileInput.fileupload({
+                fileInput: fileInput,
+                url: '<%= @post_url %>',
+                type: 'POST',
+                autoUpload: true,
+                formData: {
+                    key: denverOmlet['key'],
+                    AWSAccessKeyId: denverOmlet['AWSAccessKeyId'],
+                    acl: denverOmlet['acl'],
+                    policy: '<%= @policy %>',
+                    signature: '<%= @siggy %>',
+                    success_action_status: denverOmlet['success_action_status']
+                },
+                paramName: 'file', // S3 does not like nested name fields i.e. name="user[avatar_url]"
+                dataType: 'XML',  // S3 returns XML if success_action_status is set to 201
+                replaceFileInput: false,
+                progressall: function (e, data) {
+                    var progress = parseInt(data.loaded / data.total * 100, 10);
+                    //progressBar.css('width', progress + '%')
+                },
+                start: function (e) {
+                    submitButton.prop('disabled', true);
+
+//                    progressBar.css('background', 'green').css('display', 'block').css('width', '0%').text("Loading...");
+                },
+                done: function (e, data) {
+                    submitButton.prop('disabled', false);
+                    //                  progressBar.text("Uploading done");
+
+                    // extract key and generate URL from response
+                    var key = $(data.jqXHR.responseXML).find("Key").text();
+                    var url = 'https://s3-us-west-2.amazonaws.com/assets-japanfour/' + key;
+
+                    // create hidden field
+//                      var input = $("<input />", { type:'hidden', name: fileInput.attr('name'), value: url });
+                    //                    form.append(input);
+                    if ($('#TestEdit').find('#editFile').attr('class') == 'pic')
+                    {
+                        $('#textarea2').append('<object style="width: 20em" data="' + url + '" type="image/png"></object>');
+                    }
+                    else
+                    {
+                        $('#textarea2').append("<div style='width:0; height:0; opacity:0'><p id='audioplayer_1'>Alternative content</p><script type='text/javascript'>AudioPlayer.embed('audioplayer_1', {soundFile: '" + url + "'});<\/script><\/div>");
+                    }
+                    $('#preview').html($('#textarea2').html())
+//                    $(".onSunday").attr('value', url);
+                    //                  $(".onSunday").val(url);
+                    //                $(".onSunday").get(0).value = url;
+
+                },
+                fail: function (e, data) {
+                    submitButton.prop('disabled', false);
+
+                    //progressBar.css("background", "red").text("Failed");
+                }
+            });
+        });
+    });
+</script>
